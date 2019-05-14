@@ -2,6 +2,9 @@ SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0;
 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0;
 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='TRADITIONAL';
 
+DROP SCHEMA IF EXISTS `ConvocationRattrapage` ;
+CREATE SCHEMA IF NOT EXISTS `ConvocationRattrapage` DEFAULT CHARACTER SET latin1 COLLATE latin1_swedish_ci ;
+USE `ConvocationRattrapage` ;
 
 -- -----------------------------------------------------
 -- Table `ConvocationRattrapage`.`Eleve`
@@ -43,10 +46,10 @@ CREATE  TABLE IF NOT EXISTS `ConvocationRattrapage`.`Epreuve` (
   `anneeScolaire` VARCHAR(45) NOT NULL ,
   `niveau` VARCHAR(45) NOT NULL ,
   PRIMARY KEY (`idEpreuve`) ,
-  INDEX `idProf` () ,
+  INDEX `idProf` (`idProf` ASC) ,
   CONSTRAINT `idProf`
-    FOREIGN KEY ()
-    REFERENCES `ConvocationRattrapage`.`Prof` ()
+    FOREIGN KEY (`idProf` )
+    REFERENCES `ConvocationRattrapage`.`Prof` (`idProf` )
     ON DELETE NO ACTION
     ON UPDATE NO ACTION)
 ENGINE = InnoDB;
@@ -73,16 +76,16 @@ CREATE  TABLE IF NOT EXISTS `ConvocationRattrapage`.`Convocation` (
   `idEleve` INT NOT NULL ,
   `idEpreuve` INT NOT NULL ,
   PRIMARY KEY (`idEleve`, `idEpreuve`) ,
-  INDEX `idEleve` () ,
-  INDEX `idEpreuve` () ,
+  INDEX `idEleve` (`idEleve` ASC) ,
+  INDEX `idEpreuve` (`idEpreuve` ASC) ,
   CONSTRAINT `idEleve`
-    FOREIGN KEY ()
-    REFERENCES `ConvocationRattrapage`.`Eleve` ()
+    FOREIGN KEY (`idEleve` )
+    REFERENCES `ConvocationRattrapage`.`Eleve` (`idEleve` )
     ON DELETE NO ACTION
     ON UPDATE NO ACTION,
   CONSTRAINT `idEpreuve`
-    FOREIGN KEY ()
-    REFERENCES `ConvocationRattrapage`.`Epreuve` ()
+    FOREIGN KEY (`idEpreuve` )
+    REFERENCES `ConvocationRattrapage`.`Epreuve` (`idEpreuve` )
     ON DELETE NO ACTION
     ON UPDATE NO ACTION)
 ENGINE = InnoDB;
@@ -97,16 +100,16 @@ CREATE  TABLE IF NOT EXISTS `ConvocationRattrapage`.`FiliereEpreuve` (
   `idEpreuve` INT NOT NULL ,
   `idFiliere` INT NOT NULL ,
   PRIMARY KEY (`idEpreuve`, `idFiliere`) ,
-  INDEX `idEpreuve` () ,
-  INDEX `idFiliere` () ,
-  CONSTRAINT `idEpreuve`
-    FOREIGN KEY ()
-    REFERENCES `ConvocationRattrapage`.`Epreuve` ()
+  INDEX `idEpreuve` (`idEpreuve` ASC) ,
+  INDEX `idFiliere` (`idFiliere` ASC) ,
+  CONSTRAINT `idEpreuve2`
+    FOREIGN KEY (`idEpreuve` )
+    REFERENCES `ConvocationRattrapage`.`Epreuve` (`idEpreuve` )
     ON DELETE NO ACTION
     ON UPDATE NO ACTION,
   CONSTRAINT `idFiliere`
-    FOREIGN KEY ()
-    REFERENCES `ConvocationRattrapage`.`Filiere` ()
+    FOREIGN KEY (`idFiliere` )
+    REFERENCES `ConvocationRattrapage`.`Filiere` (`idFiliere` )
     ON DELETE NO ACTION
     ON UPDATE NO ACTION)
 ENGINE = InnoDB;
@@ -123,19 +126,21 @@ CREATE  TABLE IF NOT EXISTS `ConvocationRattrapage`.`EleveAnnee` (
   `niveau` VARCHAR(45) NULL ,
   `idFiliere` INT NOT NULL ,
   PRIMARY KEY (`idEleve`, `annee`) ,
-  INDEX `idFiliere` () ,
-  INDEX `idEleve` () ,
-  CONSTRAINT `idFiliere`
-    FOREIGN KEY ()
-    REFERENCES `ConvocationRattrapage`.`Filiere` ()
+  INDEX `idFiliere` (`idFiliere` ASC) ,
+  INDEX `idEleve` (`idEleve` ASC) ,
+  CONSTRAINT `idFiliere2`
+    FOREIGN KEY (`idFiliere` )
+    REFERENCES `ConvocationRattrapage`.`Filiere` (`idFiliere` )
     ON DELETE NO ACTION
     ON UPDATE NO ACTION,
-  CONSTRAINT `idEleve`
-    FOREIGN KEY ()
-    REFERENCES `ConvocationRattrapage`.`Eleve` ()
+  CONSTRAINT `idEleve2`
+    FOREIGN KEY (`idEleve` )
+    REFERENCES `ConvocationRattrapage`.`Eleve` (`idEleve` )
     ON DELETE NO ACTION
     ON UPDATE NO ACTION)
 ENGINE = InnoDB;
+
+
 
 SET SQL_MODE=@OLD_SQL_MODE;
 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS;
