@@ -2,44 +2,27 @@ SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0;
 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0;
 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='TRADITIONAL';
 
-CREATE SCHEMA IF NOT EXISTS `mydb` DEFAULT CHARACTER SET latin1 COLLATE latin1_swedish_ci ;
-USE `mydb` ;
 
 -- -----------------------------------------------------
--- Table `mydb`.`FiliereAnnee`
+-- Table `ConvocationRattrapage`.`Eleve`
 -- -----------------------------------------------------
-CREATE  TABLE IF NOT EXISTS `mydb`.`FiliereAnnee` (
-  `idFiliere` INT NOT NULL ,
-  `nomFiliere` VARCHAR(45) NOT NULL ,
-  `niveauFiliere` VARCHAR(45) NOT NULL ,
-  `anneeFiliere` VARCHAR(45) NOT NULL ,
-  PRIMARY KEY (`idFiliere`) )
-ENGINE = InnoDB;
+DROP TABLE IF EXISTS `ConvocationRattrapage`.`Eleve` ;
 
-
--- -----------------------------------------------------
--- Table `mydb`.`Eleve`
--- -----------------------------------------------------
-CREATE  TABLE IF NOT EXISTS `mydb`.`Eleve` (
-  `idEleve` INT NOT NULL ,
+CREATE  TABLE IF NOT EXISTS `ConvocationRattrapage`.`Eleve` (
+  `idEleve` INT NOT NULL AUTO_INCREMENT ,
   `nomEtudiant` VARCHAR(45) NOT NULL ,
   `prenomEtudiant` VARCHAR(45) NOT NULL ,
-  `idFiliere` INT NULL ,
-  PRIMARY KEY (`idEleve`) ,
-  INDEX `idFiliere` () ,
-  CONSTRAINT `idFiliere`
-    FOREIGN KEY ()
-    REFERENCES `mydb`.`FiliereAnnee` ()
-    ON DELETE NO ACTION
-    ON UPDATE NO ACTION)
+  PRIMARY KEY (`idEleve`) )
 ENGINE = InnoDB;
 
 
 -- -----------------------------------------------------
--- Table `mydb`.`Prof`
+-- Table `ConvocationRattrapage`.`Prof`
 -- -----------------------------------------------------
-CREATE  TABLE IF NOT EXISTS `mydb`.`Prof` (
-  `idProf` INT NOT NULL ,
+DROP TABLE IF EXISTS `ConvocationRattrapage`.`Prof` ;
+
+CREATE  TABLE IF NOT EXISTS `ConvocationRattrapage`.`Prof` (
+  `idProf` INT NOT NULL AUTO_INCREMENT ,
   `nomProf` VARCHAR(45) NOT NULL ,
   `prenomProf` VARCHAR(45) NOT NULL ,
   PRIMARY KEY (`idProf`) )
@@ -47,28 +30,46 @@ ENGINE = InnoDB;
 
 
 -- -----------------------------------------------------
--- Table `mydb`.`Epreuve`
+-- Table `ConvocationRattrapage`.`Epreuve`
 -- -----------------------------------------------------
-CREATE  TABLE IF NOT EXISTS `mydb`.`Epreuve` (
-  `idEpreuve` INT NOT NULL ,
+DROP TABLE IF EXISTS `ConvocationRattrapage`.`Epreuve` ;
+
+CREATE  TABLE IF NOT EXISTS `ConvocationRattrapage`.`Epreuve` (
+  `idEpreuve` INT NOT NULL AUTO_INCREMENT ,
   `dateEpreuve` DATE NOT NULL ,
   `salleEpreuve` VARCHAR(45) NULL ,
   `idProf` INT NOT NULL ,
   `nomEpreuve` VARCHAR(45) NOT NULL ,
+  `anneeScolaire` VARCHAR(45) NOT NULL ,
+  `niveau` VARCHAR(45) NOT NULL ,
   PRIMARY KEY (`idEpreuve`) ,
   INDEX `idProf` () ,
   CONSTRAINT `idProf`
     FOREIGN KEY ()
-    REFERENCES `mydb`.`Prof` ()
+    REFERENCES `ConvocationRattrapage`.`Prof` ()
     ON DELETE NO ACTION
     ON UPDATE NO ACTION)
 ENGINE = InnoDB;
 
 
 -- -----------------------------------------------------
--- Table `mydb`.`Convocation`
+-- Table `ConvocationRattrapage`.`Filiere`
 -- -----------------------------------------------------
-CREATE  TABLE IF NOT EXISTS `mydb`.`Convocation` (
+DROP TABLE IF EXISTS `ConvocationRattrapage`.`Filiere` ;
+
+CREATE  TABLE IF NOT EXISTS `ConvocationRattrapage`.`Filiere` (
+  `idFiliere` INT NOT NULL AUTO_INCREMENT ,
+  `nomFiliere` VARCHAR(45) NOT NULL ,
+  PRIMARY KEY (`idFiliere`) )
+ENGINE = InnoDB;
+
+
+-- -----------------------------------------------------
+-- Table `ConvocationRattrapage`.`Convocation`
+-- -----------------------------------------------------
+DROP TABLE IF EXISTS `ConvocationRattrapage`.`Convocation` ;
+
+CREATE  TABLE IF NOT EXISTS `ConvocationRattrapage`.`Convocation` (
   `idEleve` INT NOT NULL ,
   `idEpreuve` INT NOT NULL ,
   PRIMARY KEY (`idEleve`, `idEpreuve`) ,
@@ -76,21 +77,23 @@ CREATE  TABLE IF NOT EXISTS `mydb`.`Convocation` (
   INDEX `idEpreuve` () ,
   CONSTRAINT `idEleve`
     FOREIGN KEY ()
-    REFERENCES `mydb`.`Eleve` ()
+    REFERENCES `ConvocationRattrapage`.`Eleve` ()
     ON DELETE NO ACTION
     ON UPDATE NO ACTION,
   CONSTRAINT `idEpreuve`
     FOREIGN KEY ()
-    REFERENCES `mydb`.`Epreuve` ()
+    REFERENCES `ConvocationRattrapage`.`Epreuve` ()
     ON DELETE NO ACTION
     ON UPDATE NO ACTION)
 ENGINE = InnoDB;
 
 
 -- -----------------------------------------------------
--- Table `mydb`.`FiliereEpreuve`
+-- Table `ConvocationRattrapage`.`FiliereEpreuve`
 -- -----------------------------------------------------
-CREATE  TABLE IF NOT EXISTS `mydb`.`FiliereEpreuve` (
+DROP TABLE IF EXISTS `ConvocationRattrapage`.`FiliereEpreuve` ;
+
+CREATE  TABLE IF NOT EXISTS `ConvocationRattrapage`.`FiliereEpreuve` (
   `idEpreuve` INT NOT NULL ,
   `idFiliere` INT NOT NULL ,
   PRIMARY KEY (`idEpreuve`, `idFiliere`) ,
@@ -98,17 +101,41 @@ CREATE  TABLE IF NOT EXISTS `mydb`.`FiliereEpreuve` (
   INDEX `idFiliere` () ,
   CONSTRAINT `idEpreuve`
     FOREIGN KEY ()
-    REFERENCES `mydb`.`Epreuve` ()
+    REFERENCES `ConvocationRattrapage`.`Epreuve` ()
     ON DELETE NO ACTION
     ON UPDATE NO ACTION,
   CONSTRAINT `idFiliere`
     FOREIGN KEY ()
-    REFERENCES `mydb`.`FiliereAnnee` ()
+    REFERENCES `ConvocationRattrapage`.`Filiere` ()
     ON DELETE NO ACTION
     ON UPDATE NO ACTION)
 ENGINE = InnoDB;
 
 
+-- -----------------------------------------------------
+-- Table `ConvocationRattrapage`.`EleveAnnee`
+-- -----------------------------------------------------
+DROP TABLE IF EXISTS `ConvocationRattrapage`.`EleveAnnee` ;
+
+CREATE  TABLE IF NOT EXISTS `ConvocationRattrapage`.`EleveAnnee` (
+  `idEleve` INT NOT NULL ,
+  `annee` VARCHAR(45) NOT NULL ,
+  `niveau` VARCHAR(45) NULL ,
+  `idFiliere` INT NOT NULL ,
+  PRIMARY KEY (`idEleve`, `annee`) ,
+  INDEX `idFiliere` () ,
+  INDEX `idEleve` () ,
+  CONSTRAINT `idFiliere`
+    FOREIGN KEY ()
+    REFERENCES `ConvocationRattrapage`.`Filiere` ()
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION,
+  CONSTRAINT `idEleve`
+    FOREIGN KEY ()
+    REFERENCES `ConvocationRattrapage`.`Eleve` ()
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION)
+ENGINE = InnoDB;
 
 SET SQL_MODE=@OLD_SQL_MODE;
 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS;
