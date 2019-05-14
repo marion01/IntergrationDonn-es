@@ -26,8 +26,8 @@ DROP TABLE IF EXISTS `ConvocationRattrapage`.`Prof` ;
 
 CREATE  TABLE IF NOT EXISTS `ConvocationRattrapage`.`Prof` (
   `idProf` INT NOT NULL AUTO_INCREMENT ,
-  `nomProf` VARCHAR(45) NOT NULL ,
-  `prenomProf` VARCHAR(45) NOT NULL ,
+  `nomProf` VARCHAR(45) NULL ,
+  `prenomProf` VARCHAR(45) NULL ,
   PRIMARY KEY (`idProf`) )
 ENGINE = InnoDB;
 
@@ -39,7 +39,7 @@ DROP TABLE IF EXISTS `ConvocationRattrapage`.`Epreuve` ;
 
 CREATE  TABLE IF NOT EXISTS `ConvocationRattrapage`.`Epreuve` (
   `idEpreuve` INT NOT NULL AUTO_INCREMENT ,
-  `dateEpreuve` DATE NOT NULL ,
+  `dateEpreuve` VARCHAR(60) NULL ,
   `salleEpreuve` VARCHAR(45) NULL ,
   `idProf` INT NOT NULL ,
   `nomEpreuve` VARCHAR(45) NOT NULL ,
