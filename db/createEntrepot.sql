@@ -76,7 +76,7 @@ DROP TABLE IF EXISTS `entrepotRattrapage`.`D_csp` ;
 
 CREATE  TABLE IF NOT EXISTS `entrepotRattrapage`.`D_csp` (
   `csp` INT NOT NULL ,
-  `cat_csp` INT NULL DEFAULT NULL ,
+  `cat_csp` VARCHAR(150) NULL DEFAULT NULL ,
   PRIMARY KEY (`csp`) )
 ENGINE = InnoDB;
 
