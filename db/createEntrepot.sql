@@ -112,7 +112,7 @@ CREATE  TABLE IF NOT EXISTS `entrepotRattrapage`.`Etudiants` (
   `provenance` VARCHAR(45) NULL DEFAULT NULL ,
   `filiere` VARCHAR(45) NULL DEFAULT NULL ,
   `nbRattrapage` INT NULL DEFAULT NULL ,
-  PRIMARY KEY (`codeEtudiant`) ,
+  PRIMARY KEY (`codeEtudiant`,`annee`) ,
   INDEX `codeEtudiant` (`codeEtudiant` ASC) ,
   INDEX `age` (`age` ASC) ,
   INDEX `nationalite` (`nationalite` ASC) ,
