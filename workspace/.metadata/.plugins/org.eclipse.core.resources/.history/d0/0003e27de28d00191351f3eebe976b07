@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendProperties="http://www.talend.org/properties">
+  <TalendProperties:Property xmi:id="_UgThAI3WEemvndoADNmbZA" id="_UgK-II3WEemvndoADNmbZA" label="JobPere" purpose="regrouper les jobs" version="0.1" statusCode="" item="_UgUIEY3WEemvndoADNmbZA" displayName="JobPere">
+    <author href="../talend.project#_xaEqMnWDEemtgY45NHF7Hg"/>
+    <additionalProperties xmi:id="_UggVUI3WEemvndoADNmbZA" key="created_product_fullname" value="Talend Open Studio for MDM"/>
+    <additionalProperties xmi:id="_UggVUY3WEemvndoADNmbZA" key="created_product_version" value="7.0.1.20180411_1414"/>
+    <additionalProperties xmi:id="_UggVUo3WEemvndoADNmbZA" key="created_date" value="2019-06-13T14:25:25.028+0200"/>
+    <additionalProperties xmi:id="_Ugg8YI3WEemvndoADNmbZA" key="modified_product_fullname" value="Talend Open Studio for MDM"/>
+    <additionalProperties xmi:id="_Ugg8YY3WEemvndoADNmbZA" key="modified_product_version" value="7.0.1.20180411_1414"/>
+    <additionalProperties xmi:id="_Ugg8Yo3WEemvndoADNmbZA" key="modified_date" value="2019-06-13T15:40:44.855+0200"/>
+  </TalendProperties:Property>
+  <TalendProperties:ItemState xmi:id="_UgUIEI3WEemvndoADNmbZA" path="" locked="true" lockDate="2019-06-13T14:25:26.866+0200">
+    <locker href="../talend.project#_xaEqMnWDEemtgY45NHF7Hg"/>
+  </TalendProperties:ItemState>
+  <TalendProperties:ProcessItem xmi:id="_UgUIEY3WEemvndoADNmbZA" property="_UgThAI3WEemvndoADNmbZA" state="_UgUIEI3WEemvndoADNmbZA">
+    <process href="JobPere_0.1.item#/"/>
+  </TalendProperties:ProcessItem>
+</xmi:XMI>
