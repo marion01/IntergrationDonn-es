@@ -1,0 +1,17 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<expression:EMFExpression xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:expression="http:///expression.ecore" id="tMap_1=>" expression="StringHandling.LEFT(StringHandling.RIGHT((String)globalMap.get(&quot;tFileList_1_CURRENT_FILE&quot;),9),4)">
+  <variables name="row5.code_etu" value="null" talendType="id_Integer" nullable="true"/>
+  <variables name="row5.annee" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row5.nom_patro" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row5.prenom" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row5.date_naiss" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row5.sexe" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row5.nationalite" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row5.bac" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row5.cod_post_pays" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row5.bur_distr" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row5.etape" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row5.csp_par" value="null" talendType="id_Integer" nullable="true"/>
+  <variables name="row5.cod_post_pays.length() == 3 ? row5.cod_post_pays : &quot;100&quot; " value="null" talendType="id_String"/>
+  <variables name="row5.cod_post_pays.length() > 3 ? (row5.cod_post_pays.length() == 4 ? &quot;0&quot;+row5.cod_post_pays : row5.cod_post_pays) : &quot;&quot; " value="null" talendType="id_String"/>
+</expression:EMFExpression>
