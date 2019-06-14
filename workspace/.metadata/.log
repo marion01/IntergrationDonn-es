@@ -5109,3 +5109,116 @@ Contains: Could not delete: C:\Users\mabertoni1.LOCAL\Desktop\ID\IntergrationDon
 !ENTRY org.talend.platform.logging 1 0 2019-06-14 14:49:24.492
 !MESSAGE 2019-06-14 14:49:24,492 INFO  org.talend.designer.core.runprocess.Processor  - CommandLine: C:/Program Files/Java/jdk1.8.0_111/jre/bin/java.exe -Xms256M -Xmx1024M -Dfile.encoding=UTF-8 -cp C:/Users/mabertoni1.LOCAL/Desktop/ID/IntergrationDonnees/workspace/.Java/target/classpath.jar; data_integration.shadowfileinputtodelimitedoutput_0_1.ShadowFileInputToDelimitedOutput --context=Shadow %*
 
+
+!ENTRY org.eclipse.ui.ide 4 4 2019-06-14 14:53:29.813
+!MESSAGE Problems saving workspace
+
+!ENTRY org.eclipse.ui.ide 2 1 2019-06-14 14:53:29.813
+!MESSAGE Problems occurred while trying to save the state of the workbench.
+!SUBENTRY 1 org.eclipse.core.resources 2 234 2019-06-14 14:53:29.813
+!MESSAGE The project description file (.project) for 'TUTOTALEND' was missing.  This file contains important information about the project.  A new project description file has been created, but some information about the project may have been lost.
+!SESSION 2019-06-14 14:53:57.990 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_111
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=fr_FR
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.jdt.launching.macosx 4 0 2019-06-14 14:53:58.739
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.jdt.launching.macosx [344]
+  Unresolved requirement: Require-Capability: eclipse.platform; filter:="(osgi.os=macosx)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:434)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1582)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1561)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1533)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1476)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.jdt.launching.ui.macosx 4 0 2019-06-14 14:53:58.754
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.jdt.launching.ui.macosx [346]
+  Unresolved requirement: Require-Capability: eclipse.platform; filter:="(osgi.os=macosx)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:434)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1582)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1561)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1533)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1476)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.core.resources 2 10035 2019-06-14 14:53:59.862
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.talend.platform.logging 1 0 2019-06-14 14:54:01.983
+!MESSAGE 2019-06-14 14:54:01,983 INFO  org.talend.repository.ui.login.LoginProjectPage  - validate updatesite...
+
+
+!ENTRY org.talend.platform.logging 2 0 2019-06-14 14:54:08.582
+!MESSAGE 2019-06-14 14:54:08,582 WARN  org.talend.sdk.component.studio.logging.JULToOsgiHandler  - [org.apache.webbeans.config.BeansDeployer.configureInterceptors] Interceptor class : org.apache.deltaspike.core.impl.throttling.ThrottledInterceptor is already defined
+
+
+!ENTRY org.talend.platform.logging 2 0 2019-06-14 14:54:08.582
+!MESSAGE 2019-06-14 14:54:08,582 WARN  org.talend.sdk.component.studio.logging.JULToOsgiHandler  - [org.apache.webbeans.config.BeansDeployer.configureInterceptors] Interceptor class : org.apache.deltaspike.core.impl.lock.LockedInterceptor is already defined
+
+
+!ENTRY org.talend.platform.logging 2 0 2019-06-14 14:54:08.582
+!MESSAGE 2019-06-14 14:54:08,582 WARN  org.talend.sdk.component.studio.logging.JULToOsgiHandler  - [org.apache.webbeans.config.BeansDeployer.configureInterceptors] Interceptor class : org.apache.deltaspike.core.impl.future.FutureableInterceptor is already defined
+
+
+!ENTRY org.talend.platform.logging 2 0 2019-06-14 14:54:09.253
+!MESSAGE 2019-06-14 14:54:09,253 WARN  org.talend.sdk.component.studio.logging.JULToOsgiHandler  - [org.apache.cxf.jaxrs.impl.ConfigurableImpl.doRegister] Null, empty or invalid contracts specified for brave.jaxrs2.TracingClientFilter@76ad57c5; ignoring.
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-06-14 14:54:10.298
+!MESSAGE 2019-06-14 14:54:10,298 INFO  org.eclipse.m2e.internal.launch.MavenLaunchDelegate  - C:\Users\mabertoni1.LOCAL\Desktop\ID\IntergrationDonnees\workspace\DATA_INTEGRATION\poms
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-06-14 14:54:10.298
+!MESSAGE 2019-06-14 14:54:10,298 INFO  org.eclipse.m2e.internal.launch.MavenLaunchDelegate  -  mvn  -B -o -s C:\Talend\TOS_MDM-Studio-20180411_1414-V7.0.1\configuration\maven_user_settings.xml install -llr -N -P !ci-builder
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-06-14 14:54:11.848
+!MESSAGE 2019-06-14 14:54:11,848 INFO  org.talend.core.repository.model.ProxyRepositoryFactory  - user@talend.com connecté à DATA_INTEGRATION
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-06-14 14:54:13.392
+!MESSAGE 2019-06-14 14:54:13,392 INFO  org.eclipse.m2e.internal.launch.MavenLaunchDelegate  - C:\Users\mabertoni1.LOCAL\Desktop\ID\IntergrationDonnees\workspace\DATA_INTEGRATION\poms\code\routines
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-06-14 14:54:13.392
+!MESSAGE 2019-06-14 14:54:13,392 INFO  org.eclipse.m2e.internal.launch.MavenLaunchDelegate  -  mvn  -B -o -s C:\Talend\TOS_MDM-Studio-20180411_1414-V7.0.1\configuration\maven_user_settings.xml install -llr -Dmaven.main.skip=true -P !ci-builder
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-06-14 14:54:16.148
+!MESSAGE 2019-06-14 14:54:16,148 INFO  org.talend.core.repository.logintask.ReadOnlyProjectConfirm  - ReadOnly confirm
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-06-14 14:54:17.865
+!MESSAGE 2019-06-14 14:54:17,865 INFO  org.eclipse.m2e.internal.launch.MavenLaunchDelegate  - C:\Users\mabertoni1.LOCAL\Desktop\ID\IntergrationDonnees\workspace\DATA_INTEGRATION\poms
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-06-14 14:54:17.865
+!MESSAGE 2019-06-14 14:54:17,865 INFO  org.eclipse.m2e.internal.launch.MavenLaunchDelegate  -  mvn  -B -o -s C:\Talend\TOS_MDM-Studio-20180411_1414-V7.0.1\configuration\maven_user_settings.xml install -llr -N -P !ci-builder
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-06-14 14:54:20.125
+!MESSAGE 2019-06-14 14:54:20,125 INFO  org.eclipse.m2e.internal.launch.MavenLaunchDelegate  - C:\Users\mabertoni1.LOCAL\Desktop\ID\IntergrationDonnees\workspace\DATA_INTEGRATION\poms\code\routines
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-06-14 14:54:20.125
+!MESSAGE 2019-06-14 14:54:20,125 INFO  org.eclipse.m2e.internal.launch.MavenLaunchDelegate  -  mvn  -B -o -s C:\Talend\TOS_MDM-Studio-20180411_1414-V7.0.1\configuration\maven_user_settings.xml install -llr -Dmaven.main.skip=true -P !ci-builder
+
+
+!ENTRY org.eclipse.ui 2 2 2019-06-14 14:54:31.873
+!MESSAGE Invalid preference category path: org.talend.designer.runtime.visualization.internal.ui.JavaMonitorPreferencePage (bundle: org.talend.designer.runtime.visualization.tools, page: org.talend.designer.runtime.visualization.internal.tools.ToolsPreferencePage)
+
+!ENTRY org.eclipse.core.jobs 2 2 2019-06-14 14:55:06.070
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.talend.updates.runtime.ui.CheckExtraFeaturesToInstallJob
