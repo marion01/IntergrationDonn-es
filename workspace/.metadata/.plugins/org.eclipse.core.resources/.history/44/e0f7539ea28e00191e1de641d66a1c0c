@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendProperties="http://www.talend.org/properties">
+  <TalendProperties:Property xmi:id="_Ps71cHYsEemG6_KUqyntEA" id="_Ps71YHYsEemG6_KUqyntEA" label="Apogee_2009-2010" version="0.1" statusCode="" item="_Ps71cnYsEemG6_KUqyntEA" displayName="Apogee_2009-2010">
+    <author href="../../../talend.project#_OrHAwG2AEems-ZJw9P5uBQ"/>
+    <additionalProperties xmi:id="_Ps71c3YsEemG6_KUqyntEA" key="created_product_fullname" value="Talend Open Studio for MDM"/>
+    <additionalProperties xmi:id="_Ps71dHYsEemG6_KUqyntEA" key="created_product_version" value="7.0.1.20180411_1414"/>
+    <additionalProperties xmi:id="_Ps71dXYsEemG6_KUqyntEA" key="created_date" value="2019-05-14T11:40:01.590+0200"/>
+    <additionalProperties xmi:id="_Ps71dnYsEemG6_KUqyntEA" key="modified_product_fullname" value="Talend Open Studio for MDM"/>
+    <additionalProperties xmi:id="_Ps71d3YsEemG6_KUqyntEA" key="modified_product_version" value="7.0.1.20180411_1414"/>
+    <additionalProperties xmi:id="_Ps71eHYsEemG6_KUqyntEA" key="modified_date" value="2019-06-14T14:47:50.350+0200"/>
+    <additionalProperties xmi:id="_BkjOVnZAEemZWN55m5xDKw" key="import_product_fullname" value="Talend Open Studio for MDM"/>
+    <additionalProperties xmi:id="_BkjOV3ZAEemZWN55m5xDKw" key="import_product_version" value="7.0.1.20180411_1414"/>
+    <additionalProperties xmi:id="_BkjOWHZAEemZWN55m5xDKw" key="import_date" value="2019-05-28T11:59:28.329+0200"/>
+  </TalendProperties:Property>
+  <TalendProperties:ItemState xmi:id="_Ps71cXYsEemG6_KUqyntEA" path="Talend_files" locked="true" lockDate="2019-06-14T14:47:37.134+0200">
+    <locker href="../../../talend.project#_xfOVYG1_EemKlstiD6DHtA"/>
+  </TalendProperties:ItemState>
+  <TalendProperties:ExcelFileConnectionItem xmi:id="_Ps71cnYsEemG6_KUqyntEA" property="_Ps71cHYsEemG6_KUqyntEA" state="_Ps71cXYsEemG6_KUqyntEA">
+    <connection href="Apogee_2009-2010_0.1.item#_Ps71YXYsEemG6_KUqyntEA"/>
+  </TalendProperties:ExcelFileConnectionItem>
+</xmi:XMI>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendProperties="http://www.talend.org/properties" xmlns:dataquality.properties="http://dataquality.properties">
+  <TalendProperties:Property xmi:id="_1FFEonY5EemG6_KUqyntEA" id="_1FFEoXY5EemG6_KUqyntEA" label="Frequency_Table" purpose="evaluates the most frequent records" description="counts the number of records for each distinct record" version="0.1" statusCode="development" item="_1FFEpHY5EemG6_KUqyntEA" displayName="Frequency Table">
+    <author href="../../../../talend.project#_OrHAwG2AEems-ZJw9P5uBQ"/>
+    <additionalProperties xmi:id="_1FFEpXY5EemG6_KUqyntEA" key="created_product_fullname" value="Talend Open Studio for MDM"/>
+    <additionalProperties xmi:id="_1FFEpnY5EemG6_KUqyntEA" key="created_product_version" value="7.0.1.20180411_1414"/>
+    <additionalProperties xmi:id="_1FFEp3Y5EemG6_KUqyntEA" key="created_date" value="2019-05-14T13:17:15.882+0200"/>
+    <additionalProperties xmi:id="_1FFEqHY5EemG6_KUqyntEA" key="modified_product_fullname" value="Talend Open Studio for MDM"/>
+    <additionalProperties xmi:id="_1FFEqXY5EemG6_KUqyntEA" key="modified_product_version" value="7.0.1.20180411_1414"/>
+    <additionalProperties xmi:id="_1FFEqnY5EemG6_KUqyntEA" key="modified_date" value="2019-05-14T13:17:15.882+0200"/>
+    <additionalProperties xmi:id="_BYpgU3ZAEemZWN55m5xDKw" key="import_product_fullname" value="Talend Open Studio for MDM"/>
+    <additionalProperties xmi:id="_BYpgVHZAEemZWN55m5xDKw" key="import_product_version" value="7.0.1.20180411_1414"/>
+    <additionalProperties xmi:id="_BYpgVXZAEemZWN55m5xDKw" key="import_date" value="2019-05-28T11:59:28.329+0200"/>
+  </TalendProperties:Property>
+  <TalendProperties:ItemState xmi:id="_1FFEo3Y5EemG6_KUqyntEA" path="System Indicators/Advanced Statistics"/>
+  <dataquality.properties:TDQIndicatorDefinitionItem xmi:id="_1FFEpHY5EemG6_KUqyntEA" property="_1FFEonY5EemG6_KUqyntEA" state="_1FFEo3Y5EemG6_KUqyntEA" filename="Frequency_Table_0.1.definition">
+    <indicatorDefinition href="Frequency_Table_0.1.definition#_ccIR4hF2Ed2PKb6nEJEvhw"/>
+  </dataquality.properties:TDQIndicatorDefinitionItem>
+</xmi:XMI>

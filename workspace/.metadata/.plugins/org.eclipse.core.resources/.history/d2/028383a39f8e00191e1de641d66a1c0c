@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendProperties="http://www.talend.org/properties" xmlns:dataquality.properties="http://dataquality.properties">
+  <TalendProperties:Property xmi:id="_1F-cgnY5EemG6_KUqyntEA" id="_1F-cgXY5EemG6_KUqyntEA" label="Functional_Dependency" purpose="" description="Reports the extent to which the values in one column (the dependent column) depend on the values in another column or set of columns (the determinant column)" version="0.1" statusCode="development" item="_1F-chHY5EemG6_KUqyntEA" displayName="Functional Dependency">
+    <author href="../../../../talend.project#_OrHAwG2AEems-ZJw9P5uBQ"/>
+    <additionalProperties xmi:id="_1F-chXY5EemG6_KUqyntEA" key="created_product_fullname" value="Talend Open Studio for MDM"/>
+    <additionalProperties xmi:id="_1F-chnY5EemG6_KUqyntEA" key="created_product_version" value="7.0.1.20180411_1414"/>
+    <additionalProperties xmi:id="_1F-ch3Y5EemG6_KUqyntEA" key="created_date" value="2019-05-14T13:17:15.976+0200"/>
+    <additionalProperties xmi:id="_1F-ciHY5EemG6_KUqyntEA" key="modified_product_fullname" value="Talend Open Studio for MDM"/>
+    <additionalProperties xmi:id="_1F-ciXY5EemG6_KUqyntEA" key="modified_product_version" value="7.0.1.20180411_1414"/>
+    <additionalProperties xmi:id="_1F-cinY5EemG6_KUqyntEA" key="modified_date" value="2019-05-14T13:17:15.976+0200"/>
+    <additionalProperties xmi:id="_BZZHN3ZAEemZWN55m5xDKw" key="import_product_fullname" value="Talend Open Studio for MDM"/>
+    <additionalProperties xmi:id="_BZZHOHZAEemZWN55m5xDKw" key="import_product_version" value="7.0.1.20180411_1414"/>
+    <additionalProperties xmi:id="_BZZHOXZAEemZWN55m5xDKw" key="import_date" value="2019-05-28T11:59:28.329+0200"/>
+  </TalendProperties:Property>
+  <TalendProperties:ItemState xmi:id="_1F-cg3Y5EemG6_KUqyntEA" path="System Indicators/Functional Dependency"/>
+  <dataquality.properties:TDQIndicatorDefinitionItem xmi:id="_1F-chHY5EemG6_KUqyntEA" property="_1F-cgnY5EemG6_KUqyntEA" state="_1F-cg3Y5EemG6_KUqyntEA" filename="Functional_Dependency_0.1.definition">
+    <indicatorDefinition href="Functional_Dependency_0.1.definition#_YqcX0XHpEd6udst2R2sgpA"/>
+  </dataquality.properties:TDQIndicatorDefinitionItem>
+</xmi:XMI>

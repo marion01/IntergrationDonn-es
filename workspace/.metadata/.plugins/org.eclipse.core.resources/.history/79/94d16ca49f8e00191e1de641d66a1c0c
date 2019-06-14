@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendProperties="http://www.talend.org/properties" xmlns:dataquality.properties="http://dataquality.properties">
+  <TalendProperties:Property xmi:id="_oMh8knWDEemu7YA_9DaTog" id="_oMh8kXWDEemu7YA_9DaTog" label="Catalog_Overview" purpose="Give an overview of the content of a catalog" description="Counts the number of rows, tables, schemas..." version="0.1" statusCode="development" item="_oMh8lHWDEemu7YA_9DaTog" displayName="Catalog Overview">
+    <author href="../../../../talend.project#_xfOVYG1_EemKlstiD6DHtA"/>
+    <additionalProperties xmi:id="_oMh8lXWDEemu7YA_9DaTog" key="created_product_fullname" value="Talend Open Studio for MDM"/>
+    <additionalProperties xmi:id="_oMh8lnWDEemu7YA_9DaTog" key="created_product_version" value="7.0.1.20180411_1414"/>
+    <additionalProperties xmi:id="_oMh8l3WDEemu7YA_9DaTog" key="created_date" value="2019-05-13T15:33:01.017+0200"/>
+    <additionalProperties xmi:id="_oMh8mHWDEemu7YA_9DaTog" key="modified_product_fullname" value="Talend Open Studio for MDM"/>
+    <additionalProperties xmi:id="_oMh8mXWDEemu7YA_9DaTog" key="modified_product_version" value="7.0.1.20180411_1414"/>
+    <additionalProperties xmi:id="_oMh8mnWDEemu7YA_9DaTog" key="modified_date" value="2019-05-13T15:33:01.017+0200"/>
+  </TalendProperties:Property>
+  <TalendProperties:ItemState xmi:id="_oMh8k3WDEemu7YA_9DaTog" path="System Indicators/Overview"/>
+  <dataquality.properties:TDQIndicatorDefinitionItem xmi:id="_oMh8lHWDEemu7YA_9DaTog" property="_oMh8knWDEemu7YA_9DaTog" state="_oMh8k3WDEemu7YA_9DaTog" filename="Catalog_Overview_0.1.definition">
+    <indicatorDefinition href="Catalog_Overview_0.1.definition#_QwDiwMYUEd27NP4lvE0A4w"/>
+  </dataquality.properties:TDQIndicatorDefinitionItem>
+</xmi:XMI>

@@ -3,12 +3,12 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <modelVersion>4.0.0</modelVersion>
   <parent>
-    <groupId>org.example.tuto</groupId>
+    <groupId>org.example.tutotalend</groupId>
     <artifactId>code.Master</artifactId>
     <version>7.0.1</version>
     <relativePath>../../../</relativePath>
   </parent>
-  <groupId>org.example.tuto.job</groupId>
+  <groupId>org.example.tutotalend.job</groupId>
   <artifactId>Fusion_Promo</artifactId>
   <version>0.1.0</version>
   <name>DATA_INTEGRATION Fusion_Promo-0.1.0 (0.1,Jobs)</name>
@@ -24,8 +24,8 @@
     <talend.project.name>DATA_INTEGRATION</talend.project.name>
     <talend.product.version>7.0.1.20180411_1414</talend.product.version>
     <talend.job.finalName>fusion_promo_0_1</talend.job.finalName>
-    <talend.pigudf.groupid>org.example.tuto.pigudf</talend.pigudf.groupid>
-    <talend.routine.groupid>org.example.tuto.code</talend.routine.groupid>
+    <talend.pigudf.groupid>org.example.tutotalend.pigudf</talend.pigudf.groupid>
+    <talend.routine.groupid>org.example.tutotalend.code</talend.routine.groupid>
     <current.bundle.resources.dir>${basedir}/src/main/bundle-resources</current.bundle.resources.dir>
     <talend.job.jvmargs>-Xms256M -Xmx1024M -Dfile.encoding=UTF-8 </talend.job.jvmargs>
     <talend.project.branch></talend.project.branch>
@@ -96,7 +96,7 @@
       <version>6.0.0</version>
     </dependency>
     <dependency>
-      <groupId>org.example.tuto.code</groupId>
+      <groupId>org.example.tutotalend.code</groupId>
       <artifactId>routines</artifactId>
       <version>7.0.1</version>
     </dependency>

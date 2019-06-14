@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendProperties="http://www.talend.org/properties" xmlns:dataquality.properties="http://dataquality.properties">
+  <TalendProperties:Property xmi:id="_oM-omHWDEemu7YA_9DaTog" id="_oM-ol3WDEemu7YA_9DaTog" label="Multiple_Column_Simple_Statistics" purpose="evaluates the multiplicity of records on several columns" description="Computes simple statistics on several columns" version="0.1" statusCode="development" item="_oM-omnWDEemu7YA_9DaTog" displayName="Multiple Column Simple Statistics">
+    <author href="../../../../talend.project#_xfOVYG1_EemKlstiD6DHtA"/>
+    <additionalProperties xmi:id="_oM-om3WDEemu7YA_9DaTog" key="created_product_fullname" value="Talend Open Studio for MDM"/>
+    <additionalProperties xmi:id="_oM-onHWDEemu7YA_9DaTog" key="created_product_version" value="7.0.1.20180411_1414"/>
+    <additionalProperties xmi:id="_oM-onXWDEemu7YA_9DaTog" key="created_date" value="2019-05-13T15:33:01.064+0200"/>
+    <additionalProperties xmi:id="_oM-onnWDEemu7YA_9DaTog" key="modified_product_fullname" value="Talend Open Studio for MDM"/>
+    <additionalProperties xmi:id="_oM-on3WDEemu7YA_9DaTog" key="modified_product_version" value="7.0.1.20180411_1414"/>
+    <additionalProperties xmi:id="_oM-ooHWDEemu7YA_9DaTog" key="modified_date" value="2019-05-13T15:33:01.064+0200"/>
+  </TalendProperties:Property>
+  <TalendProperties:ItemState xmi:id="_oM-omXWDEemu7YA_9DaTog" path="System Indicators/Simple Statistics"/>
+  <dataquality.properties:TDQIndicatorDefinitionItem xmi:id="_oM-omnWDEemu7YA_9DaTog" property="_oM-omHWDEemu7YA_9DaTog" state="_oM-omXWDEemu7YA_9DaTog" filename="Multiple_Column_Simple_Statistics_0.1.definition">
+    <indicatorDefinition href="Multiple_Column_Simple_Statistics_0.1.definition#_JoeMkM-jEd6qN5aKpPNGTg"/>
+  </dataquality.properties:TDQIndicatorDefinitionItem>
+</xmi:XMI>

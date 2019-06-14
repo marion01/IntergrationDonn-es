@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendProperties="http://www.talend.org/properties">
+  <TalendProperties:Property xmi:id="_31RncIxKEem6i4lK8W9mlA" id="_3007gIxKEem6i4lK8W9mlA" label="fusionreg" version="0.1" statusCode="" item="_31RncoxKEem6i4lK8W9mlA" displayName="fusionreg">
+    <author href="../../talend.project#_OrHAwG2AEems-ZJw9P5uBQ"/>
+    <additionalProperties xmi:id="_31Rnc4xKEem6i4lK8W9mlA" key="created_product_fullname" value="Talend Open Studio for MDM"/>
+    <additionalProperties xmi:id="_31RndIxKEem6i4lK8W9mlA" key="created_product_version" value="7.0.1.20180411_1414"/>
+    <additionalProperties xmi:id="_31RndYxKEem6i4lK8W9mlA" key="created_date" value="2019-06-11T15:14:41.383+0200"/>
+    <additionalProperties xmi:id="_31RndoxKEem6i4lK8W9mlA" key="modified_product_fullname" value="Talend Open Studio for MDM"/>
+    <additionalProperties xmi:id="_31Rnd4xKEem6i4lK8W9mlA" key="modified_product_version" value="7.0.1.20180411_1414"/>
+    <additionalProperties xmi:id="_31RneIxKEem6i4lK8W9mlA" key="modified_date" value="2019-06-11T16:26:48.471+0200"/>
+  </TalendProperties:Property>
+  <TalendProperties:ItemState xmi:id="_31RncYxKEem6i4lK8W9mlA" path=""/>
+  <TalendProperties:DelimitedFileConnectionItem xmi:id="_31RncoxKEem6i4lK8W9mlA" property="_31RncIxKEem6i4lK8W9mlA" state="_31RncYxKEem6i4lK8W9mlA">
+    <connection href="fusionreg_0.1.item#_30-FcIxKEem6i4lK8W9mlA"/>
+  </TalendProperties:DelimitedFileConnectionItem>
+</xmi:XMI>

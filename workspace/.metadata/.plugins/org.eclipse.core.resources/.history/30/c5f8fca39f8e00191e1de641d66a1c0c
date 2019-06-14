@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendProperties="http://www.talend.org/properties" xmlns:dataquality.properties="http://dataquality.properties">
+  <TalendProperties:Property xmi:id="_1KvAvXY5EemG6_KUqyntEA" id="_1KvAvHY5EemG6_KUqyntEA" label="Currency_16,3" purpose="1234.23||1,234.245||1.12,12,0.00||0,123.99" description="Currency expression, accepts 4 commas and 4 groups of 3 numbers and 1 number before the first comma, this first number will have to be different from zero. It accepts a number of, two or three decimal. It accepts zero numbers after the point. You can change the number of groups and numbers accespts before and after the point." version="0.1" statusCode="Draft" item="_1KvAv3Y5EemG6_KUqyntEA" displayName="Currency 16,3">
+    <author href="../../../../talend.project#_OrHAwG2AEems-ZJw9P5uBQ"/>
+    <additionalProperties xmi:id="_1KvAwHY5EemG6_KUqyntEA" key="created_product_fullname" value="Talend Open Studio for MDM"/>
+    <additionalProperties xmi:id="_1KvAwXY5EemG6_KUqyntEA" key="created_product_version" value="7.0.1.20180411_1414"/>
+    <additionalProperties xmi:id="_1KvAwnY5EemG6_KUqyntEA" key="created_date" value="2019-05-14T13:17:16.475+0200"/>
+    <additionalProperties xmi:id="_1KvAw3Y5EemG6_KUqyntEA" key="modified_product_fullname" value="Talend Open Studio for MDM"/>
+    <additionalProperties xmi:id="_1KvAxHY5EemG6_KUqyntEA" key="modified_product_version" value="7.0.1.20180411_1414"/>
+    <additionalProperties xmi:id="_1KvAxXY5EemG6_KUqyntEA" key="modified_date" value="2019-05-14T13:17:16.475+0200"/>
+    <additionalProperties xmi:id="_BeJraXZAEemZWN55m5xDKw" key="import_product_fullname" value="Talend Open Studio for MDM"/>
+    <additionalProperties xmi:id="_BeJranZAEemZWN55m5xDKw" key="import_product_version" value="7.0.1.20180411_1414"/>
+    <additionalProperties xmi:id="_BeJra3ZAEemZWN55m5xDKw" key="import_date" value="2019-05-28T11:59:28.329+0200"/>
+  </TalendProperties:Property>
+  <TalendProperties:ItemState xmi:id="_1KvAvnY5EemG6_KUqyntEA" path="Regex/number"/>
+  <dataquality.properties:TDQPatternItem xmi:id="_1KvAv3Y5EemG6_KUqyntEA" property="_1KvAvXY5EemG6_KUqyntEA" state="_1KvAvnY5EemG6_KUqyntEA" filename="Currency_16,3_0.1.pattern">
+    <pattern href="Currency_16,3_0.1.pattern#_8TNRwIydEd6Dle_8xC0lwg"/>
+  </dataquality.properties:TDQPatternItem>
+</xmi:XMI>

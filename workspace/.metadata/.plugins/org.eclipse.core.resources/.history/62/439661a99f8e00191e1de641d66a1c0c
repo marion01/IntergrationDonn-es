@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendProperties="http://www.talend.org/properties" xmlns:dataquality.properties="http://dataquality.properties">
+  <TalendProperties:Property xmi:id="_oRvMvXWDEemu7YA_9DaTog" id="_oRvMvHWDEemu7YA_9DaTog" label="French_date" purpose="Correct French DateTime(DD/MM/YYYY OR DD/MM/YYYY HH:MM:SS)" description="Matches  &#x9;&#xA;12/01/2002 | 12/01/2002 12:32:10&#xA;Non-Matches &#x9;&#xA;32/12/2002 | 12/13/2001 | 12/02/06" version="0.1" statusCode="Draft" item="_oRvMv3WDEemu7YA_9DaTog" displayName="French date">
+    <author href="../../../../talend.project#_xfOVYG1_EemKlstiD6DHtA"/>
+    <additionalProperties xmi:id="_oRvMwHWDEemu7YA_9DaTog" key="created_product_fullname" value="Talend Open Studio for MDM"/>
+    <additionalProperties xmi:id="_oRvMwXWDEemu7YA_9DaTog" key="created_product_version" value="7.0.1.20180411_1414"/>
+    <additionalProperties xmi:id="_oRvMwnWDEemu7YA_9DaTog" key="created_date" value="2019-05-13T15:33:01.563+0200"/>
+    <additionalProperties xmi:id="_oRvMw3WDEemu7YA_9DaTog" key="modified_product_fullname" value="Talend Open Studio for MDM"/>
+    <additionalProperties xmi:id="_oRvMxHWDEemu7YA_9DaTog" key="modified_product_version" value="7.0.1.20180411_1414"/>
+    <additionalProperties xmi:id="_oRvMxXWDEemu7YA_9DaTog" key="modified_date" value="2019-05-13T15:33:01.563+0200"/>
+  </TalendProperties:Property>
+  <TalendProperties:ItemState xmi:id="_oRvMvnWDEemu7YA_9DaTog" path="Regex/date"/>
+  <dataquality.properties:TDQPatternItem xmi:id="_oRvMv3WDEemu7YA_9DaTog" property="_oRvMvXWDEemu7YA_9DaTog" state="_oRvMvnWDEemu7YA_9DaTog" filename="French_date_0.1.pattern">
+    <pattern href="French_date_0.1.pattern#_tZlYsPbMEd2c5L1gaJyUtQ"/>
+  </dataquality.properties:TDQPatternItem>
+</xmi:XMI>

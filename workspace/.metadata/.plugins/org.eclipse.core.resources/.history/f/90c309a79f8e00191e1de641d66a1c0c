@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendProperties="http://www.talend.org/properties" xmlns:dataquality.properties="http://dataquality.properties">
+  <TalendProperties:Property xmi:id="_oMrtk3WDEemu7YA_9DaTog" id="_oMrtknWDEemu7YA_9DaTog" label="Row_Comparison" purpose="Compare content of two column sets" description="Counts the number of data from a column set A that match data of a column set B" version="0.1" statusCode="development" item="_oMrtlXWDEemu7YA_9DaTog" displayName="Row Comparison">
+    <author href="../../../../talend.project#_xfOVYG1_EemKlstiD6DHtA"/>
+    <additionalProperties xmi:id="_oMrtlnWDEemu7YA_9DaTog" key="created_product_fullname" value="Talend Open Studio for MDM"/>
+    <additionalProperties xmi:id="_oMrtl3WDEemu7YA_9DaTog" key="created_product_version" value="7.0.1.20180411_1414"/>
+    <additionalProperties xmi:id="_oMrtmHWDEemu7YA_9DaTog" key="created_date" value="2019-05-13T15:33:01.033+0200"/>
+    <additionalProperties xmi:id="_oMrtmXWDEemu7YA_9DaTog" key="modified_product_fullname" value="Talend Open Studio for MDM"/>
+    <additionalProperties xmi:id="_oMrtmnWDEemu7YA_9DaTog" key="modified_product_version" value="7.0.1.20180411_1414"/>
+    <additionalProperties xmi:id="_oMrtm3WDEemu7YA_9DaTog" key="modified_date" value="2019-05-13T15:33:01.033+0200"/>
+  </TalendProperties:Property>
+  <TalendProperties:ItemState xmi:id="_oMrtlHWDEemu7YA_9DaTog" path="System Indicators/Row Comparison"/>
+  <dataquality.properties:TDQIndicatorDefinitionItem xmi:id="_oMrtlXWDEemu7YA_9DaTog" property="_oMrtk3WDEemu7YA_9DaTog" state="_oMrtlHWDEemu7YA_9DaTog" filename="Row_Comparison_0.1.definition">
+    <indicatorDefinition href="Row_Comparison_0.1.definition#_jMh4gJE3Ed2HGNmGoaS-_w"/>
+  </dataquality.properties:TDQIndicatorDefinitionItem>
+</xmi:XMI>

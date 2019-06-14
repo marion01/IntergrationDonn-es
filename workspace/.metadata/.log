@@ -4693,3 +4693,419 @@ org.osgi.framework.BundleException: Could not resolve module: org.eclipse.jdt.la
 
 !ENTRY org.eclipse.ui 2 2 2019-06-14 13:12:59.473
 !MESSAGE Invalid preference category path: org.talend.designer.runtime.visualization.internal.ui.JavaMonitorPreferencePage (bundle: org.talend.designer.runtime.visualization.tools, page: org.talend.designer.runtime.visualization.internal.tools.ToolsPreferencePage)
+
+!ENTRY org.talend.platform.logging 1 0 2019-06-14 14:39:00.849
+!MESSAGE 2019-06-14 14:39:00,849 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update started
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-06-14 14:39:01.051
+!MESSAGE 2019-06-14 14:39:01,051 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update completed: 0 sec
+
+
+!ENTRY org.talend.platform.logging 4 0 2019-06-14 14:39:01.192
+!MESSAGE 2019-06-14 14:39:01,192 ERROR org.talend.commons.exception.CommonExceptionHandler  - Erreurs de compilation du Job 
+Au moins le Job "Fusion_Apogee" a des erreurs de compilation, réparez et réexportez.
+Ligne en erreur: 1467
+Message détaillé: Invalid escape sequence (valid ones are  \b  \t  \n  \f  \r  \"  \'  \\ )
+Il peut y avoir d'autres erreurs causées par la compatibilité avec la JVM. Vérifiez que les paramètres de votre JVM sont les mêmes que dans le studio.
+
+!STACK 0
+org.talend.designer.runprocess.ProcessorException: Erreurs de compilation du Job 
+Au moins le Job "Fusion_Apogee" a des erreurs de compilation, réparez et réexportez.
+Ligne en erreur: 1467
+Message détaillé: Invalid escape sequence (valid ones are  \b  \t  \n  \f  \r  \"  \'  \\ )
+Il peut y avoir d'autres erreurs causées par la compatibilité avec la JVM. Vérifiez que les paramètres de votre JVM sont les mêmes que dans le studio.
+	at org.talend.designer.runprocess.JobErrorsChecker.checkLastGenerationHasCompilationError(JobErrorsChecker.java:338)
+	at org.talend.designer.runprocess.DefaultRunProcessService.checkLastGenerationHasCompilationError(DefaultRunProcessService.java:464)
+	at org.talend.designer.runprocess.RunProcessService.checkLastGenerationHasCompilationError(RunProcessService.java:316)
+	at org.talend.designer.runprocess.ProcessorUtilities.generateBuildInfo(ProcessorUtilities.java:812)
+	at org.talend.designer.runprocess.ProcessorUtilities.generateCode(ProcessorUtilities.java:586)
+	at org.talend.designer.runprocess.ProcessorUtilities.generateCode(ProcessorUtilities.java:1736)
+	at org.talend.designer.runprocess.RunProcessContext$1.run(RunProcessContext.java:582)
+	at org.eclipse.jface.operation.ModalContext.runInCurrentThread(ModalContext.java:466)
+	at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:374)
+	at org.eclipse.jface.dialogs.ProgressMonitorDialog.run(ProgressMonitorDialog.java:527)
+	at org.eclipse.ui.internal.progress.ProgressMonitorJobsDialog.run(ProgressMonitorJobsDialog.java:284)
+	at org.eclipse.ui.internal.progress.ProgressManager.run(ProgressManager.java:1190)
+	at org.talend.designer.runprocess.RunProcessContext.exec(RunProcessContext.java:534)
+	at org.talend.designer.runprocess.ui.ProcessComposite.exec(ProcessComposite.java:1401)
+	at org.talend.designer.runprocess.ui.views.ProcessView$RunAction.run(ProcessView.java:701)
+	at org.talend.designer.runprocess.ui.actions.RunProcessAction.run(RunProcessAction.java:58)
+	at org.talend.designer.core.debug.JobLaunchConfigurationDelegate$1.run(JobLaunchConfigurationDelegate.java:84)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:136)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4147)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3764)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1032)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:148)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:636)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:579)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.talend.rcp.intro.Application.start(Application.java:265)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:380)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:235)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:648)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:603)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
+
+!ENTRY org.talend.platform.logging 1 0 2019-06-14 14:39:17.432
+!MESSAGE 2019-06-14 14:39:17,432 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update started
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-06-14 14:39:17.650
+!MESSAGE 2019-06-14 14:39:17,650 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update completed: 0 sec
+
+
+!ENTRY org.talend.platform.logging 4 0 2019-06-14 14:39:17.806
+!MESSAGE 2019-06-14 14:39:17,806 ERROR org.talend.commons.exception.CommonExceptionHandler  - Erreurs de compilation du Job 
+Au moins le Job "Fusion_Apogee" a des erreurs de compilation, réparez et réexportez.
+Ligne en erreur: 1467
+Message détaillé: Invalid escape sequence (valid ones are  \b  \t  \n  \f  \r  \"  \'  \\ )
+Il peut y avoir d'autres erreurs causées par la compatibilité avec la JVM. Vérifiez que les paramètres de votre JVM sont les mêmes que dans le studio.
+
+!STACK 0
+org.talend.designer.runprocess.ProcessorException: Erreurs de compilation du Job 
+Au moins le Job "Fusion_Apogee" a des erreurs de compilation, réparez et réexportez.
+Ligne en erreur: 1467
+Message détaillé: Invalid escape sequence (valid ones are  \b  \t  \n  \f  \r  \"  \'  \\ )
+Il peut y avoir d'autres erreurs causées par la compatibilité avec la JVM. Vérifiez que les paramètres de votre JVM sont les mêmes que dans le studio.
+	at org.talend.designer.runprocess.JobErrorsChecker.checkLastGenerationHasCompilationError(JobErrorsChecker.java:338)
+	at org.talend.designer.runprocess.DefaultRunProcessService.checkLastGenerationHasCompilationError(DefaultRunProcessService.java:464)
+	at org.talend.designer.runprocess.RunProcessService.checkLastGenerationHasCompilationError(RunProcessService.java:316)
+	at org.talend.designer.runprocess.ProcessorUtilities.generateBuildInfo(ProcessorUtilities.java:812)
+	at org.talend.designer.runprocess.ProcessorUtilities.generateCode(ProcessorUtilities.java:586)
+	at org.talend.designer.runprocess.ProcessorUtilities.generateCode(ProcessorUtilities.java:1736)
+	at org.talend.designer.runprocess.RunProcessContext$1.run(RunProcessContext.java:582)
+	at org.eclipse.jface.operation.ModalContext.runInCurrentThread(ModalContext.java:466)
+	at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:374)
+	at org.eclipse.jface.dialogs.ProgressMonitorDialog.run(ProgressMonitorDialog.java:527)
+	at org.eclipse.ui.internal.progress.ProgressMonitorJobsDialog.run(ProgressMonitorJobsDialog.java:284)
+	at org.eclipse.ui.internal.progress.ProgressManager.run(ProgressManager.java:1190)
+	at org.talend.designer.runprocess.RunProcessContext.exec(RunProcessContext.java:534)
+	at org.talend.designer.runprocess.ui.ProcessComposite.exec(ProcessComposite.java:1401)
+	at org.talend.designer.runprocess.ui.views.ProcessView$RunAction.run(ProcessView.java:701)
+	at org.talend.designer.runprocess.ui.actions.RunProcessAction.run(RunProcessAction.java:58)
+	at org.talend.designer.core.debug.JobLaunchConfigurationDelegate$1.run(JobLaunchConfigurationDelegate.java:84)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:136)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4147)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3764)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1032)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:148)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:636)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:579)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.talend.rcp.intro.Application.start(Application.java:265)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:380)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:235)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:648)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:603)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
+
+!ENTRY org.talend.platform.logging 1 0 2019-06-14 14:39:56.510
+!MESSAGE 2019-06-14 14:39:56,510 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update started
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-06-14 14:39:56.744
+!MESSAGE 2019-06-14 14:39:56,744 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update completed: 0 sec
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-06-14 14:39:57.040
+!MESSAGE 2019-06-14 14:39:57,040 INFO  org.talend.designer.core.runprocess.Processor  - CommandLine: C:/Program Files/Java/jdk1.8.0_111/jre/bin/java.exe -Xms256M -Xmx1024M -Dfile.encoding=UTF-8 -cp C:/Users/mabertoni1.LOCAL/Desktop/ID/IntergrationDonnees/workspace/DATA_INTEGRATION/poms/jobs/process/fusion_apogee_0.1/target/classpath.jar; data_integration.fusion_apogee_0_1.Fusion_Apogee --context=Default --stat_port=4039 %*
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-06-14 14:40:07.543
+!MESSAGE 2019-06-14 14:40:07,543 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update started
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-06-14 14:40:07.777
+!MESSAGE 2019-06-14 14:40:07,777 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update completed: 0 sec
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-06-14 14:40:08.074
+!MESSAGE 2019-06-14 14:40:08,074 INFO  org.talend.designer.core.runprocess.Processor  - CommandLine: C:/Program Files/Java/jdk1.8.0_111/jre/bin/java.exe -Xms256M -Xmx1024M -Dfile.encoding=UTF-8 -cp C:/Users/mabertoni1.LOCAL/Desktop/ID/IntergrationDonnees/workspace/DATA_INTEGRATION/poms/jobs/process/fusion_apogee_0.1/target/classpath.jar; data_integration.fusion_apogee_0_1.Fusion_Apogee --context=Default --stat_port=3706 %*
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-06-14 14:40:13.802
+!MESSAGE 2019-06-14 14:40:13,802 INFO  org.eclipse.m2e.internal.launch.MavenLaunchDelegate  - C:\Users\mabertoni1.LOCAL\Desktop\ID\IntergrationDonnees\workspace\DATA_INTEGRATION\poms
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-06-14 14:40:13.802
+!MESSAGE 2019-06-14 14:40:13,802 INFO  org.eclipse.m2e.internal.launch.MavenLaunchDelegate  -  mvn  -B -o -Dmaven.test.skip=true -DskipTests -s C:\Talend\TOS_MDM-Studio-20180411_1414-V7.0.1\configuration\maven_user_settings.xml install -llr -T 1C -f build-aggregator.pom -P !ci-builder,!packaging-and-assembly
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-06-14 14:40:17.576
+!MESSAGE 2019-06-14 14:40:17,576 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update started
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-06-14 14:40:17.779
+!MESSAGE 2019-06-14 14:40:17,779 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update completed: 0 sec
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-06-14 14:40:18.465
+!MESSAGE 2019-06-14 14:40:18,465 INFO  org.talend.designer.core.runprocess.Processor  - CommandLine: C:/Program Files/Java/jdk1.8.0_111/jre/bin/java.exe -Xms256M -Xmx1024M -Dfile.encoding=UTF-8 -cp C:/Users/mabertoni1.LOCAL/Desktop/ID/IntergrationDonnees/workspace/DATA_INTEGRATION/poms/jobs/process/parent_job_0.1/target/classpath.jar; data_integration.parent_job_0_1.Parent_Job --context=Default --stat_port=3728 %*
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-06-14 14:43:00.670
+!MESSAGE 2019-06-14 14:43:00,670 INFO  org.eclipse.m2e.internal.launch.MavenLaunchDelegate  - C:\Users\mabertoni1.LOCAL\Desktop\ID\IntergrationDonnees\workspace\DATA_INTEGRATION\poms
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-06-14 14:43:00.670
+!MESSAGE 2019-06-14 14:43:00,670 INFO  org.eclipse.m2e.internal.launch.MavenLaunchDelegate  -  mvn  -B -o -Dmaven.test.skip=true -DskipTests -s C:\Talend\TOS_MDM-Studio-20180411_1414-V7.0.1\configuration\maven_user_settings.xml install -llr -T 1C -f build-aggregator.pom -P !ci-builder,!packaging-and-assembly
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-06-14 14:43:03.252
+!MESSAGE 2019-06-14 14:43:03,252 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update started
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-06-14 14:43:03.471
+!MESSAGE 2019-06-14 14:43:03,471 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update completed: 0 sec
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-06-14 14:43:04.110
+!MESSAGE 2019-06-14 14:43:04,110 INFO  org.talend.designer.core.runprocess.Processor  - CommandLine: C:/Program Files/Java/jdk1.8.0_111/jre/bin/java.exe -Xms256M -Xmx1024M -Dfile.encoding=UTF-8 -cp C:/Users/mabertoni1.LOCAL/Desktop/ID/IntergrationDonnees/workspace/DATA_INTEGRATION/poms/jobs/process/parent_job_0.1/target/classpath.jar; data_integration.parent_job_0_1.Parent_Job --context=Default --stat_port=3890 %*
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-06-14 14:44:06.672
+!MESSAGE 2019-06-14 14:44:06,672 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /.Java/src/main/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-06-14 14:44:06.672
+!MESSAGE 2019-06-14 14:44:06,672 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /.Java/src/main/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-06-14 14:44:06.672
+!MESSAGE 2019-06-14 14:44:06,672 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /.Java/src/test/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-06-14 14:44:06.672
+!MESSAGE 2019-06-14 14:44:06,672 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /.Java/src/test/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-06-14 14:44:07.780
+!MESSAGE 2019-06-14 14:44:07,780 INFO  org.talend.designer.core.runprocess.Processor  - CommandLine: C:/Program Files/Java/jdk1.8.0_111/jre/bin/java.exe -Xms256M -Xmx1024M -Dfile.encoding=UTF-8 -cp C:/Users/mabertoni1.LOCAL/Desktop/ID/IntergrationDonnees/workspace/.Java/target/classpath.jar; data_integration.shadowfileinputtodelimitedoutput_0_1.ShadowFileInputToDelimitedOutput --context=Shadow %*
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-06-14 14:44:28.828
+!MESSAGE 2019-06-14 14:44:28,828 INFO  org.talend.designer.core.runprocess.Processor  - CommandLine: C:/Program Files/Java/jdk1.8.0_111/jre/bin/java.exe -Xms256M -Xmx1024M -Dfile.encoding=UTF-8 -cp C:/Users/mabertoni1.LOCAL/Desktop/ID/IntergrationDonnees/workspace/.Java/target/classpath.jar; data_integration.shadowfileinputtodelimitedoutput_0_1.ShadowFileInputToDelimitedOutput --context=Shadow %*
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-06-14 14:44:44.697
+!MESSAGE 2019-06-14 14:44:44,697 INFO  org.talend.designer.core.runprocess.Processor  - CommandLine: C:/Program Files/Java/jdk1.8.0_111/jre/bin/java.exe -Xms256M -Xmx1024M -Dfile.encoding=UTF-8 -cp C:/Users/mabertoni1.LOCAL/Desktop/ID/IntergrationDonnees/workspace/.Java/target/classpath.jar; data_integration.shadowfileinputtodelimitedoutput_0_1.ShadowFileInputToDelimitedOutput --context=Shadow %*
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-06-14 14:45:01.595
+!MESSAGE 2019-06-14 14:45:01,595 INFO  org.talend.designer.core.runprocess.Processor  - CommandLine: C:/Program Files/Java/jdk1.8.0_111/jre/bin/java.exe -Xms256M -Xmx1024M -Dfile.encoding=UTF-8 -cp C:/Users/mabertoni1.LOCAL/Desktop/ID/IntergrationDonnees/workspace/.Java/target/classpath.jar; data_integration.shadowfileinputtodelimitedoutput_0_1.ShadowFileInputToDelimitedOutput --context=Shadow %*
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-06-14 14:45:20.631
+!MESSAGE 2019-06-14 14:45:20,631 INFO  org.talend.designer.core.runprocess.Processor  - CommandLine: C:/Program Files/Java/jdk1.8.0_111/jre/bin/java.exe -Xms256M -Xmx1024M -Dfile.encoding=UTF-8 -cp C:/Users/mabertoni1.LOCAL/Desktop/ID/IntergrationDonnees/workspace/.Java/target/classpath.jar; data_integration.shadowfileinputtodelimitedoutput_0_1.ShadowFileInputToDelimitedOutput --context=Shadow %*
+
+
+!ENTRY org.eclipse.jdt.core 4 4 2019-06-14 14:45:34.971
+!MESSAGE JavaBuilder handling ImageBuilderInternalException while building: .Java
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Problems encountered while deleting resources.
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:816)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.cleanOutputFolders(BatchImageBuilder.java:116)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.build(BatchImageBuilder.java:48)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildAll(JavaBuilder.java:256)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:175)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:734)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:299)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:302)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:263)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:401)
+	at org.eclipse.core.internal.resources.Project$1.run(Project.java:618)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2313)
+	at org.eclipse.core.internal.resources.Project.internalBuild(Project.java:597)
+	at org.eclipse.core.internal.resources.Project.build(Project.java:114)
+	at org.talend.designer.runprocess.java.TalendProcessJavaProject.buildWholeCodeProject(TalendProcessJavaProject.java:375)
+	at org.talend.designer.runprocess.java.TalendProcessJavaProject.mavenBuildCodeProjectPom(TalendProcessJavaProject.java:348)
+	at org.talend.designer.runprocess.java.TalendProcessJavaProject.buildModules(TalendProcessJavaProject.java:308)
+	at org.talend.designer.runprocess.maven.MavenJavaProcessor.build(MavenJavaProcessor.java:398)
+	at org.talend.designer.runprocess.ProcessorUtilities.generateBuildInfo(ProcessorUtilities.java:801)
+	at org.talend.designer.runprocess.ProcessorUtilities.generateCode(ProcessorUtilities.java:1121)
+	at org.talend.designer.runprocess.ProcessorUtilities.generateCode(ProcessorUtilities.java:904)
+	at org.talend.designer.runprocess.ProcessorUtilities.generateCode(ProcessorUtilities.java:1688)
+	at org.talend.designer.runprocess.ProcessorUtilities.generateCode(ProcessorUtilities.java:1655)
+	at org.talend.designer.core.runprocess.Processor.run(Processor.java:179)
+	at org.talend.designer.runprocess.java.AbstractJavaProcessor.run(AbstractJavaProcessor.java:242)
+	at org.talend.designer.core.runprocess.Processor.run(Processor.java:137)
+	at org.talend.designer.runprocess.shadow.ShadowProcess.runWithErrorOutputAsException(ShadowProcess.java:371)
+	at org.talend.designer.runprocess.shadow.ShadowFilePreview.preview(ShadowFilePreview.java:86)
+	at org.talend.metadata.managment.ui.utils.ShadowProcessHelper.getCsvArray(ShadowProcessHelper.java:383)
+	at org.talend.repository.ui.wizards.metadata.connection.files.excel.ExcelFileStep2Form$PreviewProcessor.nonUIProcessInThread(ExcelFileStep2Form.java:1042)
+	at org.talend.commons.ui.swt.thread.SWTUIThreadProcessor$1.run(SWTUIThreadProcessor.java:74)
+Contains: Could not delete '/.Java/target/classes/data_integration'.
+org.eclipse.core.internal.resources.ResourceException: Problems encountered while deleting resources.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.delete(FileSystemResourceManager.java:351)
+	at org.eclipse.core.internal.resources.ResourceTree.internalDeleteFolder(ResourceTree.java:352)
+	at org.eclipse.core.internal.resources.ResourceTree.standardDeleteFolder(ResourceTree.java:798)
+	at org.eclipse.core.internal.resources.Resource.unprotectedDelete(Resource.java:1983)
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:803)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.cleanOutputFolders(BatchImageBuilder.java:116)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.build(BatchImageBuilder.java:48)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildAll(JavaBuilder.java:256)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:175)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:734)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:299)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:302)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:263)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:401)
+	at org.eclipse.core.internal.resources.Project$1.run(Project.java:618)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2313)
+	at org.eclipse.core.internal.resources.Project.internalBuild(Project.java:597)
+	at org.eclipse.core.internal.resources.Project.build(Project.java:114)
+	at org.talend.designer.runprocess.java.TalendProcessJavaProject.buildWholeCodeProject(TalendProcessJavaProject.java:375)
+	at org.talend.designer.runprocess.java.TalendProcessJavaProject.mavenBuildCodeProjectPom(TalendProcessJavaProject.java:348)
+	at org.talend.designer.runprocess.java.TalendProcessJavaProject.buildModules(TalendProcessJavaProject.java:308)
+	at org.talend.designer.runprocess.maven.MavenJavaProcessor.build(MavenJavaProcessor.java:398)
+	at org.talend.designer.runprocess.ProcessorUtilities.generateBuildInfo(ProcessorUtilities.java:801)
+	at org.talend.designer.runprocess.ProcessorUtilities.generateCode(ProcessorUtilities.java:1121)
+	at org.talend.designer.runprocess.ProcessorUtilities.generateCode(ProcessorUtilities.java:904)
+	at org.talend.designer.runprocess.ProcessorUtilities.generateCode(ProcessorUtilities.java:1688)
+	at org.talend.designer.runprocess.ProcessorUtilities.generateCode(ProcessorUtilities.java:1655)
+	at org.talend.designer.core.runprocess.Processor.run(Processor.java:179)
+	at org.talend.designer.runprocess.java.AbstractJavaProcessor.run(AbstractJavaProcessor.java:242)
+	at org.talend.designer.core.runprocess.Processor.run(Processor.java:137)
+	at org.talend.designer.runprocess.shadow.ShadowProcess.runWithErrorOutputAsException(ShadowProcess.java:371)
+	at org.talend.designer.runprocess.shadow.ShadowFilePreview.preview(ShadowFilePreview.java:86)
+	at org.talend.metadata.managment.ui.utils.ShadowProcessHelper.getCsvArray(ShadowProcessHelper.java:383)
+	at org.talend.repository.ui.wizards.metadata.connection.files.excel.ExcelFileStep2Form$PreviewProcessor.nonUIProcessInThread(ExcelFileStep2Form.java:1042)
+	at org.talend.commons.ui.swt.thread.SWTUIThreadProcessor$1.run(SWTUIThreadProcessor.java:74)
+Contains: Problems encountered while deleting files.
+Contains: Could not delete: C:\Users\mabertoni1.LOCAL\Desktop\ID\IntergrationDonnees\workspace\.Java\target\classes\data_integration.
+!SUBENTRY 1 org.eclipse.core.resources 4 273 2019-06-14 14:45:34.971
+!MESSAGE Problems encountered while deleting resources.
+!SUBENTRY 2 org.eclipse.core.resources 4 273 2019-06-14 14:45:34.971
+!MESSAGE Could not delete '/.Java/target/classes/data_integration'.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Problems encountered while deleting resources.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.delete(FileSystemResourceManager.java:351)
+	at org.eclipse.core.internal.resources.ResourceTree.internalDeleteFolder(ResourceTree.java:352)
+	at org.eclipse.core.internal.resources.ResourceTree.standardDeleteFolder(ResourceTree.java:798)
+	at org.eclipse.core.internal.resources.Resource.unprotectedDelete(Resource.java:1983)
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:803)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.cleanOutputFolders(BatchImageBuilder.java:116)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.build(BatchImageBuilder.java:48)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildAll(JavaBuilder.java:256)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:175)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:734)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:299)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:302)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:263)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:401)
+	at org.eclipse.core.internal.resources.Project$1.run(Project.java:618)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2313)
+	at org.eclipse.core.internal.resources.Project.internalBuild(Project.java:597)
+	at org.eclipse.core.internal.resources.Project.build(Project.java:114)
+	at org.talend.designer.runprocess.java.TalendProcessJavaProject.buildWholeCodeProject(TalendProcessJavaProject.java:375)
+	at org.talend.designer.runprocess.java.TalendProcessJavaProject.mavenBuildCodeProjectPom(TalendProcessJavaProject.java:348)
+	at org.talend.designer.runprocess.java.TalendProcessJavaProject.buildModules(TalendProcessJavaProject.java:308)
+	at org.talend.designer.runprocess.maven.MavenJavaProcessor.build(MavenJavaProcessor.java:398)
+	at org.talend.designer.runprocess.ProcessorUtilities.generateBuildInfo(ProcessorUtilities.java:801)
+	at org.talend.designer.runprocess.ProcessorUtilities.generateCode(ProcessorUtilities.java:1121)
+	at org.talend.designer.runprocess.ProcessorUtilities.generateCode(ProcessorUtilities.java:904)
+	at org.talend.designer.runprocess.ProcessorUtilities.generateCode(ProcessorUtilities.java:1688)
+	at org.talend.designer.runprocess.ProcessorUtilities.generateCode(ProcessorUtilities.java:1655)
+	at org.talend.designer.core.runprocess.Processor.run(Processor.java:179)
+	at org.talend.designer.runprocess.java.AbstractJavaProcessor.run(AbstractJavaProcessor.java:242)
+	at org.talend.designer.core.runprocess.Processor.run(Processor.java:137)
+	at org.talend.designer.runprocess.shadow.ShadowProcess.runWithErrorOutputAsException(ShadowProcess.java:371)
+	at org.talend.designer.runprocess.shadow.ShadowFilePreview.preview(ShadowFilePreview.java:86)
+	at org.talend.metadata.managment.ui.utils.ShadowProcessHelper.getCsvArray(ShadowProcessHelper.java:383)
+	at org.talend.repository.ui.wizards.metadata.connection.files.excel.ExcelFileStep2Form$PreviewProcessor.nonUIProcessInThread(ExcelFileStep2Form.java:1042)
+	at org.talend.commons.ui.swt.thread.SWTUIThreadProcessor$1.run(SWTUIThreadProcessor.java:74)
+Contains: Problems encountered while deleting files.
+Contains: Could not delete: C:\Users\mabertoni1.LOCAL\Desktop\ID\IntergrationDonnees\workspace\.Java\target\classes\data_integration.
+!SUBENTRY 3 org.eclipse.core.resources 4 273 2019-06-14 14:45:34.971
+!MESSAGE Problems encountered while deleting resources.
+!SUBENTRY 4 org.eclipse.core.filesystem 4 273 2019-06-14 14:45:34.971
+!MESSAGE Problems encountered while deleting files.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2019-06-14 14:45:34.971
+!MESSAGE Could not delete: C:\Users\mabertoni1.LOCAL\Desktop\ID\IntergrationDonnees\workspace\.Java\target\classes\data_integration.
+
+!ENTRY org.talend.platform.logging 1 0 2019-06-14 14:45:35.252
+!MESSAGE 2019-06-14 14:45:35,252 INFO  org.talend.designer.core.runprocess.Processor  - CommandLine: C:/Program Files/Java/jdk1.8.0_111/jre/bin/java.exe -Xms256M -Xmx1024M -Dfile.encoding=UTF-8 -cp C:/Users/mabertoni1.LOCAL/Desktop/ID/IntergrationDonnees/workspace/.Java/target/classpath.jar; data_integration.shadowfileinputtodelimitedoutput_0_1.ShadowFileInputToDelimitedOutput --context=Shadow %*
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-06-14 14:45:53.913
+!MESSAGE 2019-06-14 14:45:53,913 INFO  org.talend.designer.core.runprocess.Processor  - CommandLine: C:/Program Files/Java/jdk1.8.0_111/jre/bin/java.exe -Xms256M -Xmx1024M -Dfile.encoding=UTF-8 -cp C:/Users/mabertoni1.LOCAL/Desktop/ID/IntergrationDonnees/workspace/.Java/target/classpath.jar; data_integration.shadowfileinputtodelimitedoutput_0_1.ShadowFileInputToDelimitedOutput --context=Shadow %*
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-06-14 14:46:11.342
+!MESSAGE 2019-06-14 14:46:11,342 INFO  org.talend.designer.core.runprocess.Processor  - CommandLine: C:/Program Files/Java/jdk1.8.0_111/jre/bin/java.exe -Xms256M -Xmx1024M -Dfile.encoding=UTF-8 -cp C:/Users/mabertoni1.LOCAL/Desktop/ID/IntergrationDonnees/workspace/.Java/target/classpath.jar; data_integration.shadowfileinputtodelimitedoutput_0_1.ShadowFileInputToDelimitedOutput --context=Shadow %*
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-06-14 14:46:26.259
+!MESSAGE 2019-06-14 14:46:26,259 INFO  org.talend.designer.core.runprocess.Processor  - CommandLine: C:/Program Files/Java/jdk1.8.0_111/jre/bin/java.exe -Xms256M -Xmx1024M -Dfile.encoding=UTF-8 -cp C:/Users/mabertoni1.LOCAL/Desktop/ID/IntergrationDonnees/workspace/.Java/target/classpath.jar; data_integration.shadowfileinputtodelimitedoutput_0_1.ShadowFileInputToDelimitedOutput --context=Shadow %*
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-06-14 14:46:40.069
+!MESSAGE 2019-06-14 14:46:40,069 INFO  org.talend.designer.core.runprocess.Processor  - CommandLine: C:/Program Files/Java/jdk1.8.0_111/jre/bin/java.exe -Xms256M -Xmx1024M -Dfile.encoding=UTF-8 -cp C:/Users/mabertoni1.LOCAL/Desktop/ID/IntergrationDonnees/workspace/.Java/target/classpath.jar; data_integration.shadowfileinputtodelimitedoutput_0_1.ShadowFileInputToDelimitedOutput --context=Shadow %*
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-06-14 14:46:57.544
+!MESSAGE 2019-06-14 14:46:57,544 INFO  org.talend.designer.core.runprocess.Processor  - CommandLine: C:/Program Files/Java/jdk1.8.0_111/jre/bin/java.exe -Xms256M -Xmx1024M -Dfile.encoding=UTF-8 -cp C:/Users/mabertoni1.LOCAL/Desktop/ID/IntergrationDonnees/workspace/.Java/target/classpath.jar; data_integration.shadowfileinputtodelimitedoutput_0_1.ShadowFileInputToDelimitedOutput --context=Shadow %*
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-06-14 14:47:14.772
+!MESSAGE 2019-06-14 14:47:14,772 INFO  org.talend.designer.core.runprocess.Processor  - CommandLine: C:/Program Files/Java/jdk1.8.0_111/jre/bin/java.exe -Xms256M -Xmx1024M -Dfile.encoding=UTF-8 -cp C:/Users/mabertoni1.LOCAL/Desktop/ID/IntergrationDonnees/workspace/.Java/target/classpath.jar; data_integration.shadowfileinputtodelimitedoutput_0_1.ShadowFileInputToDelimitedOutput --context=Shadow %*
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-06-14 14:47:32.294
+!MESSAGE 2019-06-14 14:47:32,294 INFO  org.talend.designer.core.runprocess.Processor  - CommandLine: C:/Program Files/Java/jdk1.8.0_111/jre/bin/java.exe -Xms256M -Xmx1024M -Dfile.encoding=UTF-8 -cp C:/Users/mabertoni1.LOCAL/Desktop/ID/IntergrationDonnees/workspace/.Java/target/classpath.jar; data_integration.shadowfileinputtodelimitedoutput_0_1.ShadowFileInputToDelimitedOutput --context=Shadow %*
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-06-14 14:47:47.352
+!MESSAGE 2019-06-14 14:47:47,352 INFO  org.talend.designer.core.runprocess.Processor  - CommandLine: C:/Program Files/Java/jdk1.8.0_111/jre/bin/java.exe -Xms256M -Xmx1024M -Dfile.encoding=UTF-8 -cp C:/Users/mabertoni1.LOCAL/Desktop/ID/IntergrationDonnees/workspace/.Java/target/classpath.jar; data_integration.shadowfileinputtodelimitedoutput_0_1.ShadowFileInputToDelimitedOutput --context=Shadow %*
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-06-14 14:48:28.165
+!MESSAGE 2019-06-14 14:48:28,165 INFO  org.talend.designer.core.runprocess.Processor  - CommandLine: C:/Program Files/Java/jdk1.8.0_111/jre/bin/java.exe -Xms256M -Xmx1024M -Dfile.encoding=UTF-8 -cp C:/Users/mabertoni1.LOCAL/Desktop/ID/IntergrationDonnees/workspace/.Java/target/classpath.jar; data_integration.shadowfileinputtodelimitedoutput_0_1.ShadowFileInputToDelimitedOutput --context=Shadow %*
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-06-14 14:48:40.197
+!MESSAGE 2019-06-14 14:48:40,197 INFO  org.talend.designer.core.runprocess.Processor  - CommandLine: C:/Program Files/Java/jdk1.8.0_111/jre/bin/java.exe -Xms256M -Xmx1024M -Dfile.encoding=UTF-8 -cp C:/Users/mabertoni1.LOCAL/Desktop/ID/IntergrationDonnees/workspace/.Java/target/classpath.jar; data_integration.shadowfileinputtodelimitedoutput_0_1.ShadowFileInputToDelimitedOutput --context=Shadow %*
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-06-14 14:49:04.458
+!MESSAGE 2019-06-14 14:49:04,458 INFO  org.talend.designer.core.runprocess.Processor  - CommandLine: C:/Program Files/Java/jdk1.8.0_111/jre/bin/java.exe -Xms256M -Xmx1024M -Dfile.encoding=UTF-8 -cp C:/Users/mabertoni1.LOCAL/Desktop/ID/IntergrationDonnees/workspace/.Java/target/classpath.jar; data_integration.shadowfileinputtodelimitedoutput_0_1.ShadowFileInputToDelimitedOutput --context=Shadow %*
+
+
+!ENTRY org.talend.platform.logging 1 0 2019-06-14 14:49:24.492
+!MESSAGE 2019-06-14 14:49:24,492 INFO  org.talend.designer.core.runprocess.Processor  - CommandLine: C:/Program Files/Java/jdk1.8.0_111/jre/bin/java.exe -Xms256M -Xmx1024M -Dfile.encoding=UTF-8 -cp C:/Users/mabertoni1.LOCAL/Desktop/ID/IntergrationDonnees/workspace/.Java/target/classpath.jar; data_integration.shadowfileinputtodelimitedoutput_0_1.ShadowFileInputToDelimitedOutput --context=Shadow %*
+

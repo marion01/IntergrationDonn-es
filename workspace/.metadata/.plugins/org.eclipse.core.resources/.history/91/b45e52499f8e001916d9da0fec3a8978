@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendProperties="http://www.talend.org/properties" xmlns:dataquality.properties="http://dataquality.properties">
+  <TalendProperties:Property xmi:id="_oTYLcXWDEemu7YA_9DaTog" id="_oTYLcHWDEemu7YA_9DaTog" label="German_Phone_number__Local__" purpose="match : 023123456722  or 02.31.23.45.67.22 not match : 010909181918" description="Validates an German area dial code and telephone number." version="0.1" statusCode="Draft" item="_oTYLc3WDEemu7YA_9DaTog" displayName="German Phone number( Local )">
+    <author href="../../../../talend.project#_xfOVYG1_EemKlstiD6DHtA"/>
+    <additionalProperties xmi:id="_oTYLdHWDEemu7YA_9DaTog" key="created_product_fullname" value="Talend Open Studio for MDM"/>
+    <additionalProperties xmi:id="_oTYLdXWDEemu7YA_9DaTog" key="created_product_version" value="7.0.1.20180411_1414"/>
+    <additionalProperties xmi:id="_oTYLdnWDEemu7YA_9DaTog" key="created_date" value="2019-05-13T15:33:01.735+0200"/>
+    <additionalProperties xmi:id="_oTYLd3WDEemu7YA_9DaTog" key="modified_product_fullname" value="Talend Open Studio for MDM"/>
+    <additionalProperties xmi:id="_oTYLeHWDEemu7YA_9DaTog" key="modified_product_version" value="7.0.1.20180411_1414"/>
+    <additionalProperties xmi:id="_oTYLeXWDEemu7YA_9DaTog" key="modified_date" value="2019-05-13T15:33:01.735+0200"/>
+  </TalendProperties:Property>
+  <TalendProperties:ItemState xmi:id="_oTYLcnWDEemu7YA_9DaTog" path="Regex/phone"/>
+  <dataquality.properties:TDQPatternItem xmi:id="_oTYLc3WDEemu7YA_9DaTog" property="_oTYLcXWDEemu7YA_9DaTog" state="_oTYLcnWDEemu7YA_9DaTog" filename="German_Phone_number__Local___0.1.pattern">
+    <pattern href="German_Phone_number__Local___0.1.pattern#_NW0R0IygEd6Dle_8xC0lwg"/>
+  </dataquality.properties:TDQPatternItem>
+</xmi:XMI>

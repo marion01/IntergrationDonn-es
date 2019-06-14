@@ -21,6 +21,7 @@
     <module>jobs/process/loadetudedd1_0.1</module>
     <module>jobs/process/countrattrapage_0.1</module>
     <module>jobs/process/load_csp_0.1</module>
+    <module>jobs/process/job1_0.1</module>
   </modules>
   <properties>
     <talend.project.name>DATA_INTEGRATION</talend.project.name>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendProperties="http://www.talend.org/properties" xmlns:dataquality.properties="http://dataquality.properties">
+  <TalendProperties:Property xmi:id="_oPgYEHWDEemu7YA_9DaTog" id="_oPXON3WDEemu7YA_9DaTog" label="Well_Formed_E164_Phone_Number_Count" purpose="" description="evaluates the well formed E164 phone number of records" version="0.1" statusCode="development" item="_oPgYEnWDEemu7YA_9DaTog" displayName="Well Formed E164 Phone Number Count">
+    <author href="../../../../talend.project#_xfOVYG1_EemKlstiD6DHtA"/>
+    <additionalProperties xmi:id="_oPgYE3WDEemu7YA_9DaTog" key="created_product_fullname" value="Talend Open Studio for MDM"/>
+    <additionalProperties xmi:id="_oPgYFHWDEemu7YA_9DaTog" key="created_product_version" value="7.0.1.20180411_1414"/>
+    <additionalProperties xmi:id="_oPgYFXWDEemu7YA_9DaTog" key="created_date" value="2019-05-13T15:33:01.329+0200"/>
+    <additionalProperties xmi:id="_oPgYFnWDEemu7YA_9DaTog" key="modified_product_fullname" value="Talend Open Studio for MDM"/>
+    <additionalProperties xmi:id="_oPgYF3WDEemu7YA_9DaTog" key="modified_product_version" value="7.0.1.20180411_1414"/>
+    <additionalProperties xmi:id="_oPgYGHWDEemu7YA_9DaTog" key="modified_date" value="2019-05-13T15:33:01.329+0200"/>
+  </TalendProperties:Property>
+  <TalendProperties:ItemState xmi:id="_oPgYEXWDEemu7YA_9DaTog" path="System Indicators/Phone Number Statistics"/>
+  <dataquality.properties:TDQIndicatorDefinitionItem xmi:id="_oPgYEnWDEemu7YA_9DaTog" property="_oPgYEHWDEemu7YA_9DaTog" state="_oPgYEXWDEemu7YA_9DaTog" filename="Well_Formed_E164_Phone_Number_Count_0.1.definition">
+    <indicatorDefinition href="Well_Formed_E164_Phone_Number_Count_0.1.definition#_e3AMILEiEeCVE-ofo1XCug"/>
+  </dataquality.properties:TDQIndicatorDefinitionItem>
+</xmi:XMI>

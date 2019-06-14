@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendProperties="http://www.talend.org/properties" xmlns:dataquality.properties="http://dataquality.properties">
+  <TalendProperties:Property xmi:id="_oQZwCHWDEemu7YA_9DaTog" id="_oQZwB3WDEemu7YA_9DaTog" label="Master_Card_Number" purpose="Check the validity of Master card numbers" description="All MasterCard numbers start with the numbers 51 through 55. All have 16 digits." version="0.1" statusCode="Draft" item="_oQZwCnWDEemu7YA_9DaTog" displayName="Master Card Number">
+    <author href="../../../../talend.project#_xfOVYG1_EemKlstiD6DHtA"/>
+    <additionalProperties xmi:id="_oQZwC3WDEemu7YA_9DaTog" key="created_product_fullname" value="Talend Open Studio for MDM"/>
+    <additionalProperties xmi:id="_oQZwDHWDEemu7YA_9DaTog" key="created_product_version" value="7.0.1.20180411_1414"/>
+    <additionalProperties xmi:id="_oQZwDXWDEemu7YA_9DaTog" key="created_date" value="2019-05-13T15:33:01.423+0200"/>
+    <additionalProperties xmi:id="_oQZwDnWDEemu7YA_9DaTog" key="modified_product_fullname" value="Talend Open Studio for MDM"/>
+    <additionalProperties xmi:id="_oQZwD3WDEemu7YA_9DaTog" key="modified_product_version" value="7.0.1.20180411_1414"/>
+    <additionalProperties xmi:id="_oQZwEHWDEemu7YA_9DaTog" key="modified_date" value="2019-05-13T15:33:01.423+0200"/>
+  </TalendProperties:Property>
+  <TalendProperties:ItemState xmi:id="_oQZwCXWDEemu7YA_9DaTog" path="Regex/number"/>
+  <dataquality.properties:TDQPatternItem xmi:id="_oQZwCnWDEemu7YA_9DaTog" property="_oQZwCHWDEemu7YA_9DaTog" state="_oQZwCXWDEemu7YA_9DaTog" filename="Master_Card_Number_0.1.pattern">
+    <pattern href="Master_Card_Number_0.1.pattern#_6YWv4D16Ed2p44yVAaDvbQ"/>
+  </dataquality.properties:TDQPatternItem>
+</xmi:XMI>

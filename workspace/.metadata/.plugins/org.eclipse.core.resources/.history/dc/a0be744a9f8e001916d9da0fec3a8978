@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendProperties="http://www.talend.org/properties" xmlns:dataquality.properties="http://dataquality.properties">
+  <TalendProperties:Property xmi:id="_oNlFeHWDEemu7YA_9DaTog" id="_oNlFd3WDEemu7YA_9DaTog" label="Pattern_Low_Frequency_Table" purpose="evaluates the less frequent patterns" description="counts the number of patterns for each distinct pattern" version="0.1" statusCode="development" item="_oNlFenWDEemu7YA_9DaTog" displayName="Pattern Low Frequency Table">
+    <author href="../../../../talend.project#_xfOVYG1_EemKlstiD6DHtA"/>
+    <additionalProperties xmi:id="_oNlFe3WDEemu7YA_9DaTog" key="created_product_fullname" value="Talend Open Studio for MDM"/>
+    <additionalProperties xmi:id="_oNlFfHWDEemu7YA_9DaTog" key="created_product_version" value="7.0.1.20180411_1414"/>
+    <additionalProperties xmi:id="_oNlFfXWDEemu7YA_9DaTog" key="created_date" value="2019-05-13T15:33:01.127+0200"/>
+    <additionalProperties xmi:id="_oNlFfnWDEemu7YA_9DaTog" key="modified_product_fullname" value="Talend Open Studio for MDM"/>
+    <additionalProperties xmi:id="_oNlFf3WDEemu7YA_9DaTog" key="modified_product_version" value="7.0.1.20180411_1414"/>
+    <additionalProperties xmi:id="_oNlFgHWDEemu7YA_9DaTog" key="modified_date" value="2019-05-13T15:33:01.127+0200"/>
+  </TalendProperties:Property>
+  <TalendProperties:ItemState xmi:id="_oNlFeXWDEemu7YA_9DaTog" path="System Indicators/Pattern Frequency Statistics"/>
+  <dataquality.properties:TDQIndicatorDefinitionItem xmi:id="_oNlFenWDEemu7YA_9DaTog" property="_oNlFeHWDEemu7YA_9DaTog" state="_oNlFeXWDEemu7YA_9DaTog" filename="Pattern_Low_Frequency_Table_0.1.definition">
+    <indicatorDefinition href="Pattern_Low_Frequency_Table_0.1.definition#_OCTbwJR_Ed2XO-JvLwVAwg"/>
+  </dataquality.properties:TDQIndicatorDefinitionItem>
+</xmi:XMI>

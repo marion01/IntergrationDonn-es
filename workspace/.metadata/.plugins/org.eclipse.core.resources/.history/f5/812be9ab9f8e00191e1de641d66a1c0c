@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendProperties="http://www.talend.org/properties" xmlns:dataquality.properties="http://dataquality.properties">
+  <TalendProperties:Property xmi:id="_oP9EC3WDEemu7YA_9DaTog" id="_oP9ECnWDEemu7YA_9DaTog" label="SQL_Pattern_Matching" purpose="evaluate the number of records that match a SQL pattern (entering in LIKE clause)" description="counts the number of records matching the given SQL pattern against the number of records that do not match the given SQL pattern" version="0.1" statusCode="development" item="_oP9EDXWDEemu7YA_9DaTog" displayName="SQL Pattern Matching">
+    <author href="../../../../talend.project#_xfOVYG1_EemKlstiD6DHtA"/>
+    <additionalProperties xmi:id="_oP9EDnWDEemu7YA_9DaTog" key="created_product_fullname" value="Talend Open Studio for MDM"/>
+    <additionalProperties xmi:id="_oP9ED3WDEemu7YA_9DaTog" key="created_product_version" value="7.0.1.20180411_1414"/>
+    <additionalProperties xmi:id="_oP9EEHWDEemu7YA_9DaTog" key="created_date" value="2019-05-13T15:33:01.376+0200"/>
+    <additionalProperties xmi:id="_oP9EEXWDEemu7YA_9DaTog" key="modified_product_fullname" value="Talend Open Studio for MDM"/>
+    <additionalProperties xmi:id="_oP9EEnWDEemu7YA_9DaTog" key="modified_product_version" value="7.0.1.20180411_1414"/>
+    <additionalProperties xmi:id="_oP9EE3WDEemu7YA_9DaTog" key="modified_date" value="2019-05-13T15:33:01.376+0200"/>
+  </TalendProperties:Property>
+  <TalendProperties:ItemState xmi:id="_oP9EDHWDEemu7YA_9DaTog" path="System Indicators/Pattern Matching"/>
+  <dataquality.properties:TDQIndicatorDefinitionItem xmi:id="_oP9EDXWDEemu7YA_9DaTog" property="_oP9EC3WDEemu7YA_9DaTog" state="_oP9EDHWDEemu7YA_9DaTog" filename="SQL_Pattern_Matching_0.1.definition">
+    <indicatorDefinition href="SQL_Pattern_Matching_0.1.definition#_Z4vXcERgEd2RSqFSgXiIfA"/>
+  </dataquality.properties:TDQIndicatorDefinitionItem>
+</xmi:XMI>

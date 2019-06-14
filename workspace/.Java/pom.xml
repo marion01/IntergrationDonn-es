@@ -8,7 +8,42 @@
   <dependencies>
     <dependency>
       <groupId>org.talend.libraries</groupId>
-      <artifactId>jxl</artifactId>
+      <artifactId>commons-collections4-4.1</artifactId>
+      <version>6.0.0</version>
+    </dependency>
+    <dependency>
+      <groupId>org.talend.libraries</groupId>
+      <artifactId>dom4j-1.6.1</artifactId>
+      <version>6.0.0</version>
+    </dependency>
+    <dependency>
+      <groupId>org.talend.libraries</groupId>
+      <artifactId>geronimo-stax-api_1.0_spec-1.0.1</artifactId>
+      <version>6.0.0</version>
+    </dependency>
+    <dependency>
+      <groupId>org.talend.libraries</groupId>
+      <artifactId>log4j-1.2.15</artifactId>
+      <version>6.0.0</version>
+    </dependency>
+    <dependency>
+      <groupId>org.talend.libraries</groupId>
+      <artifactId>poi-3.16-20170419_modified_talend</artifactId>
+      <version>6.0.0</version>
+    </dependency>
+    <dependency>
+      <groupId>org.talend.libraries</groupId>
+      <artifactId>poi-ooxml-3.16-20170419_modified_talend</artifactId>
+      <version>6.0.0</version>
+    </dependency>
+    <dependency>
+      <groupId>org.talend.libraries</groupId>
+      <artifactId>poi-ooxml-schemas-3.16-20170419</artifactId>
+      <version>6.0.0</version>
+    </dependency>
+    <dependency>
+      <groupId>org.talend.libraries</groupId>
+      <artifactId>poi-scratchpad-3.16-20170419</artifactId>
       <version>6.0.0</version>
     </dependency>
     <dependency>
@@ -17,7 +52,12 @@
       <version>6.0.0</version>
     </dependency>
     <dependency>
-      <groupId>org.example.recoupementfichiers.code</groupId>
+      <groupId>org.talend.libraries</groupId>
+      <artifactId>xmlbeans-2.6.0</artifactId>
+      <version>6.0.0</version>
+    </dependency>
+    <dependency>
+      <groupId>org.example.tutotalend.code</groupId>
       <artifactId>routines</artifactId>
       <version>7.0.1</version>
     </dependency>

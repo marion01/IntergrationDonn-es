@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendProperties="http://www.talend.org/properties" xmlns:dataquality.properties="http://dataquality.properties">
+  <TalendProperties:Property xmi:id="_1J1o3HY5EemG6_KUqyntEA" id="_1J1o23Y5EemG6_KUqyntEA" label="Regular_Expression_Matching" purpose="evaluate the number of records that match a regular pattern" description="counts the number of records matching the given pattern against the number of records that do not match the given pattern" version="0.1" statusCode="development" item="_1J1o3nY5EemG6_KUqyntEA" displayName="Regular Expression Matching">
+    <author href="../../../../talend.project#_OrHAwG2AEems-ZJw9P5uBQ"/>
+    <additionalProperties xmi:id="_1J1o33Y5EemG6_KUqyntEA" key="created_product_fullname" value="Talend Open Studio for MDM"/>
+    <additionalProperties xmi:id="_1J1o4HY5EemG6_KUqyntEA" key="created_product_version" value="7.0.1.20180411_1414"/>
+    <additionalProperties xmi:id="_1J1o4XY5EemG6_KUqyntEA" key="created_date" value="2019-05-14T13:17:16.381+0200"/>
+    <additionalProperties xmi:id="_1J1o4nY5EemG6_KUqyntEA" key="modified_product_fullname" value="Talend Open Studio for MDM"/>
+    <additionalProperties xmi:id="_1J1o43Y5EemG6_KUqyntEA" key="modified_product_version" value="7.0.1.20180411_1414"/>
+    <additionalProperties xmi:id="_1J1o5HY5EemG6_KUqyntEA" key="modified_date" value="2019-05-14T13:17:16.381+0200"/>
+    <additionalProperties xmi:id="_BZ_kI3ZAEemZWN55m5xDKw" key="import_product_fullname" value="Talend Open Studio for MDM"/>
+    <additionalProperties xmi:id="_BZ_kJHZAEemZWN55m5xDKw" key="import_product_version" value="7.0.1.20180411_1414"/>
+    <additionalProperties xmi:id="_BZ_kJXZAEemZWN55m5xDKw" key="import_date" value="2019-05-28T11:59:28.329+0200"/>
+  </TalendProperties:Property>
+  <TalendProperties:ItemState xmi:id="_1J1o3XY5EemG6_KUqyntEA" path="System Indicators/Pattern Matching"/>
+  <dataquality.properties:TDQIndicatorDefinitionItem xmi:id="_1J1o3nY5EemG6_KUqyntEA" property="_1J1o3HY5EemG6_KUqyntEA" state="_1J1o3XY5EemG6_KUqyntEA" filename="Regular_Expression_Matching_0.1.definition">
+    <indicatorDefinition href="Regular_Expression_Matching_0.1.definition#_yb-_8Dh8Ed2XmO7pl5Yuyg"/>
+  </dataquality.properties:TDQIndicatorDefinitionItem>
+</xmi:XMI>
