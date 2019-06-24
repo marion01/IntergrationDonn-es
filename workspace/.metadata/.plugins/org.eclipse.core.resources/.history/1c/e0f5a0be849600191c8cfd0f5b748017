@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendProperties="http://www.talend.org/properties" xmlns:dataquality.properties="http://dataquality.properties">
+  <TalendProperties:Property xmi:id="_-30BvXWDEemtgY45NHF7Hg" id="_-30BvHWDEemtgY45NHF7Hg" label="Maximal_Length_With_Blank" purpose="evaluates the length of the longest textual record" description="computes the maximal length of a text field, counting blank data  as zero length values." version="0.1" statusCode="development" item="_-30Bv3WDEemtgY45NHF7Hg" displayName="Maximal Length With Blank">
+    <author href="../../../../talend.project#_xaEqMnWDEemtgY45NHF7Hg"/>
+    <additionalProperties xmi:id="_-30BwHWDEemtgY45NHF7Hg" key="created_product_fullname" value="Talend Open Studio for MDM"/>
+    <additionalProperties xmi:id="_-30BwXWDEemtgY45NHF7Hg" key="created_product_version" value="7.0.1.20180411_1414"/>
+    <additionalProperties xmi:id="_-30BwnWDEemtgY45NHF7Hg" key="created_date" value="2019-05-13T15:35:33.195+0200"/>
+    <additionalProperties xmi:id="_-30Bw3WDEemtgY45NHF7Hg" key="modified_product_fullname" value="Talend Open Studio for MDM"/>
+    <additionalProperties xmi:id="_-30BxHWDEemtgY45NHF7Hg" key="modified_product_version" value="7.0.1.20180411_1414"/>
+    <additionalProperties xmi:id="_-30BxXWDEemtgY45NHF7Hg" key="modified_date" value="2019-05-13T15:35:33.195+0200"/>
+    <additionalProperties xmi:id="_-B6cUJZwEem4APjhUblj3w" key="import_product_fullname" value="Talend Open Studio for MDM"/>
+    <additionalProperties xmi:id="_-B6cUZZwEem4APjhUblj3w" key="import_product_version" value="7.0.1.20180411_1414"/>
+    <additionalProperties xmi:id="_-B6cUpZwEem4APjhUblj3w" key="import_date" value="2019-06-24T13:12:34.127+0200"/>
+  </TalendProperties:Property>
+  <TalendProperties:ItemState xmi:id="_-30BvnWDEemtgY45NHF7Hg" path="System Indicators/Text Statistics"/>
+  <dataquality.properties:TDQIndicatorDefinitionItem xmi:id="_-30Bv3WDEemtgY45NHF7Hg" property="_-30BvXWDEemtgY45NHF7Hg" state="_-30BvnWDEemtgY45NHF7Hg" filename="Maximal_Length_With_Blank_0.1.definition">
+    <indicatorDefinition href="Maximal_Length_With_Blank_0.1.definition#_-xmZcJSOEd-TE5ti6XNR2Q"/>
+  </dataquality.properties:TDQIndicatorDefinitionItem>
+</xmi:XMI>

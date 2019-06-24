@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendProperties="http://www.talend.org/properties" xmlns:dataquality.properties="http://dataquality.properties">
+  <TalendProperties:Property xmi:id="_-6fiS3WDEemtgY45NHF7Hg" id="_-6fiSnWDEemtgY45NHF7Hg" label="Minimum" purpose="evaluates the minimal record" description="gives the minimal record" version="0.1" statusCode="development" item="_-6fiTXWDEemtgY45NHF7Hg" displayName="Minimum">
+    <author href="../../../../talend.project#_xaEqMnWDEemtgY45NHF7Hg"/>
+    <additionalProperties xmi:id="_-6fiTnWDEemtgY45NHF7Hg" key="created_product_fullname" value="Talend Open Studio for MDM"/>
+    <additionalProperties xmi:id="_-6fiT3WDEemtgY45NHF7Hg" key="created_product_version" value="7.0.1.20180411_1414"/>
+    <additionalProperties xmi:id="_-6fiUHWDEemtgY45NHF7Hg" key="created_date" value="2019-05-13T15:35:33.476+0200"/>
+    <additionalProperties xmi:id="_-6fiUXWDEemtgY45NHF7Hg" key="modified_product_fullname" value="Talend Open Studio for MDM"/>
+    <additionalProperties xmi:id="_-6fiUnWDEemtgY45NHF7Hg" key="modified_product_version" value="7.0.1.20180411_1414"/>
+    <additionalProperties xmi:id="_-6fiU3WDEemtgY45NHF7Hg" key="modified_date" value="2019-05-13T15:35:33.476+0200"/>
+    <additionalProperties xmi:id="_-A-oMJZwEem4APjhUblj3w" key="import_product_fullname" value="Talend Open Studio for MDM"/>
+    <additionalProperties xmi:id="_-A-oMZZwEem4APjhUblj3w" key="import_product_version" value="7.0.1.20180411_1414"/>
+    <additionalProperties xmi:id="_-A-oMpZwEem4APjhUblj3w" key="import_date" value="2019-06-24T13:12:34.127+0200"/>
+  </TalendProperties:Property>
+  <TalendProperties:ItemState xmi:id="_-6fiTHWDEemtgY45NHF7Hg" path="System Indicators/Summary Statistics"/>
+  <dataquality.properties:TDQIndicatorDefinitionItem xmi:id="_-6fiTXWDEemtgY45NHF7Hg" property="_-6fiS3WDEemtgY45NHF7Hg" state="_-6fiTHWDEemtgY45NHF7Hg" filename="Minimum_0.1.definition">
+    <indicatorDefinition href="Minimum_0.1.definition#_ccJgABF2Ed2PKb6nEJEvhw"/>
+  </dataquality.properties:TDQIndicatorDefinitionItem>
+</xmi:XMI>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataquality.analysis:Analysis xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dataquality.analysis="http://dataquality.analysis" xmlns:dataquality.indicators.schema="http://dataquality.indicators.schema" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore" xmi:id="_NJtIkoB9EemuP7skQGm7Gw" name="dgr" creationDate="2019-05-27T14:44:44.573+0200">
+  <clientDependency href="../../metadata/connections/convocationrattrapage_0.1.item#_NJtIkIB9EemuP7skQGm7Gw"/>
+  <taggedValue xmi:id="_NJtIk4B9EemuP7skQGm7Gw" tag="Status" value="development"/>
+  <taggedValue xmi:id="_NJtIlIB9EemuP7skQGm7Gw" tag="Author" value="user@talend.com"/>
+  <taggedValue xmi:id="_NJtIlYB9EemuP7skQGm7Gw" tag="Purpose"/>
+  <taggedValue xmi:id="_NJtIloB9EemuP7skQGm7Gw" tag="Description"/>
+  <taggedValue xmi:id="_NJtIl4B9EemuP7skQGm7Gw" tag="Version" value="0.1"/>
+  <context xmi:id="_NJtImIB9EemuP7skQGm7Gw">
+    <connection href="../../metadata/connections/convocationrattrapage_0.1.item#_gEVR4HY9EemCV_X3V4C7Cw"/>
+    <analysedElements xsi:type="orgomg.cwm.resource.relational:Catalog" href="../../metadata/connections/convocationrattrapage_0.1.item#__lytg3Y9EemCV_X3V4C7Cw"/>
+  </context>
+  <results xmi:id="_NJtImYB9EemuP7skQGm7Gw">
+    <resultMetadata xmi:id="_NJtImoB9EemuP7skQGm7Gw" executionDate="2019-05-27T14:44:49.879+0200" executionDuration="113" message="" executionNumber="1" lastRunOk="true" lastExecutionNumberOk="1"/>
+    <indicators xsi:type="dataquality.indicators.schema:CatalogIndicator" xmi:id="_NJtIm4B9EemuP7skQGm7Gw" computed="true" tableCount="7" keyCount="10" indexCount="17" tableRowCount="1983">
+      <analyzedElement xsi:type="orgomg.cwm.resource.relational:Catalog" href="../../metadata/connections/convocationrattrapage_0.1.item#__lytg3Y9EemCV_X3V4C7Cw"/>
+      <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/Catalog_Overview_0.1.definition#_QwDiwMYUEd27NP4lvE0A4w"/>
+      <tableIndicators xmi:id="_N178cIB9EemuP7skQGm7Gw" rowCount="963" tableName="convocation" keyCount="2" indexCount="4">
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/Table_Overview_0.1.definition#_hgO7YMYUEd27NP4lvE0A4w"/>
+      </tableIndicators>
+      <tableIndicators xmi:id="_N178cYB9EemuP7skQGm7Gw" rowCount="118" tableName="eleve" keyCount="1" indexCount="1">
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/Table_Overview_0.1.definition#_hgO7YMYUEd27NP4lvE0A4w"/>
+      </tableIndicators>
+      <tableIndicators xmi:id="_N178coB9EemuP7skQGm7Gw" rowCount="128" tableName="eleveannee" keyCount="2" indexCount="4">
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/Table_Overview_0.1.definition#_hgO7YMYUEd27NP4lvE0A4w"/>
+      </tableIndicators>
+      <tableIndicators xmi:id="_N178c4B9EemuP7skQGm7Gw" rowCount="274" tableName="epreuve" keyCount="1" indexCount="2">
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/Table_Overview_0.1.definition#_hgO7YMYUEd27NP4lvE0A4w"/>
+      </tableIndicators>
+      <tableIndicators xmi:id="_N2FtcIB9EemuP7skQGm7Gw" rowCount="6" tableName="filiere" keyCount="1" indexCount="1">
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/Table_Overview_0.1.definition#_hgO7YMYUEd27NP4lvE0A4w"/>
+      </tableIndicators>
+      <tableIndicators xmi:id="_N2FtcYB9EemuP7skQGm7Gw" rowCount="426" tableName="filiereepreuve" keyCount="2" indexCount="4">
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/Table_Overview_0.1.definition#_hgO7YMYUEd27NP4lvE0A4w"/>
+      </tableIndicators>
+      <tableIndicators xmi:id="_N2FtcoB9EemuP7skQGm7Gw" rowCount="68" tableName="prof" keyCount="1" indexCount="1">
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/Table_Overview_0.1.definition#_hgO7YMYUEd27NP4lvE0A4w"/>
+      </tableIndicators>
+    </indicators>
+  </results>
+  <parameters xmi:id="_NJtInIB9EemuP7skQGm7Gw" analysisType="Catalog Analysis"/>
+</dataquality.analysis:Analysis>

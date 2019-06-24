@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendProperties="http://www.talend.org/properties" xmlns:dataquality.properties="http://dataquality.properties">
+  <TalendProperties:Property xmi:id="_-6osRHWDEemtgY45NHF7Hg" id="_-6osQ3WDEemtgY45NHF7Hg" label="Valid_Region_Code_Count" purpose="evaluates the valid region code number of records" description="counts the valid region code number" version="0.1" statusCode="development" item="_-6osRnWDEemtgY45NHF7Hg" displayName="Valid Region Code Count">
+    <author href="../../../../talend.project#_xaEqMnWDEemtgY45NHF7Hg"/>
+    <additionalProperties xmi:id="_-6osR3WDEemtgY45NHF7Hg" key="created_product_fullname" value="Talend Open Studio for MDM"/>
+    <additionalProperties xmi:id="_-6osSHWDEemtgY45NHF7Hg" key="created_product_version" value="7.0.1.20180411_1414"/>
+    <additionalProperties xmi:id="_-6osSXWDEemtgY45NHF7Hg" key="created_date" value="2019-05-13T15:35:33.491+0200"/>
+    <additionalProperties xmi:id="_-6osSnWDEemtgY45NHF7Hg" key="modified_product_fullname" value="Talend Open Studio for MDM"/>
+    <additionalProperties xmi:id="_-6osS3WDEemtgY45NHF7Hg" key="modified_product_version" value="7.0.1.20180411_1414"/>
+    <additionalProperties xmi:id="_-6osTHWDEemtgY45NHF7Hg" key="modified_date" value="2019-05-13T15:35:33.491+0200"/>
+    <additionalProperties xmi:id="_-DGvIJZwEem4APjhUblj3w" key="import_product_fullname" value="Talend Open Studio for MDM"/>
+    <additionalProperties xmi:id="_-DGvIZZwEem4APjhUblj3w" key="import_product_version" value="7.0.1.20180411_1414"/>
+    <additionalProperties xmi:id="_-DGvIpZwEem4APjhUblj3w" key="import_date" value="2019-06-24T13:12:34.127+0200"/>
+  </TalendProperties:Property>
+  <TalendProperties:ItemState xmi:id="_-6osRXWDEemtgY45NHF7Hg" path="System Indicators/Phone Number Statistics"/>
+  <dataquality.properties:TDQIndicatorDefinitionItem xmi:id="_-6osRnWDEemtgY45NHF7Hg" property="_-6osRHWDEemtgY45NHF7Hg" state="_-6osRXWDEemtgY45NHF7Hg" filename="Valid_Region_Code_Count_0.1.definition">
+    <indicatorDefinition href="Valid_Region_Code_Count_0.1.definition#_aXbmULEeEeCVE-ofo1XCug"/>
+  </dataquality.properties:TDQIndicatorDefinitionItem>
+</xmi:XMI>

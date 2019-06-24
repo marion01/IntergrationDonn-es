@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendProperties="http://www.talend.org/properties" xmlns:dataquality.properties="http://dataquality.properties">
+  <TalendProperties:Property xmi:id="_-7-wDXWDEemtgY45NHF7Hg" id="_-7-wDHWDEemtgY45NHF7Hg" label="ISBN_13_Checker" purpose="ISBN-13: 978-2711791415 | ISBN 978-2711791415 |  ISBN: 978-2711791415" description="International Standard Book Number 13 digits" version="0.1" statusCode="development" item="_-7-wD3WDEemtgY45NHF7Hg" displayName="ISBN 13 Checker">
+    <author href="../../../../talend.project#_xaEqMnWDEemtgY45NHF7Hg"/>
+    <additionalProperties xmi:id="_-7-wEHWDEemtgY45NHF7Hg" key="created_product_fullname" value="Talend Open Studio for MDM"/>
+    <additionalProperties xmi:id="_-7-wEXWDEemtgY45NHF7Hg" key="created_product_version" value="7.0.1.20180411_1414"/>
+    <additionalProperties xmi:id="_-7-wEnWDEemtgY45NHF7Hg" key="created_date" value="2019-05-13T15:35:33.632+0200"/>
+    <additionalProperties xmi:id="_-7-wE3WDEemtgY45NHF7Hg" key="modified_product_fullname" value="Talend Open Studio for MDM"/>
+    <additionalProperties xmi:id="_-7-wFHWDEemtgY45NHF7Hg" key="modified_product_version" value="7.0.1.20180411_1414"/>
+    <additionalProperties xmi:id="_-7-wFXWDEemtgY45NHF7Hg" key="modified_date" value="2019-05-13T15:35:33.632+0200"/>
+    <additionalProperties xmi:id="_-JXIIJZwEem4APjhUblj3w" key="import_product_fullname" value="Talend Open Studio for MDM"/>
+    <additionalProperties xmi:id="_-JXIIZZwEem4APjhUblj3w" key="import_product_version" value="7.0.1.20180411_1414"/>
+    <additionalProperties xmi:id="_-JXIIpZwEem4APjhUblj3w" key="import_date" value="2019-06-24T13:12:34.127+0200"/>
+  </TalendProperties:Property>
+  <TalendProperties:ItemState xmi:id="_-7-wDnWDEemtgY45NHF7Hg" path="Regex/number"/>
+  <dataquality.properties:TDQPatternItem xmi:id="_-7-wD3WDEemtgY45NHF7Hg" property="_-7-wDXWDEemtgY45NHF7Hg" state="_-7-wDnWDEemtgY45NHF7Hg" filename="ISBN_13_Checker_0.1.pattern">
+    <pattern href="ISBN_13_Checker_0.1.pattern#_C9oU8GaVEeWlkevoEbik2g"/>
+  </dataquality.properties:TDQPatternItem>
+</xmi:XMI>
