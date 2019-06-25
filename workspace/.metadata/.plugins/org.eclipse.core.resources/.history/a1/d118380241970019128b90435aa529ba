@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010">
+  <TalendMetadata:GenericSchemaConnection xmi:id="_7gZYsnYtEemG6_KUqyntEA" dataPackage="_7gZYs3YtEemG6_KUqyntEA"/>
+  <TalendMetadata:GenericPackage xmi:id="_7gZYs3YtEemG6_KUqyntEA" dataManager="_7gZYsnYtEemG6_KUqyntEA">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_7gZYtHYtEemG6_KUqyntEA" id="_7gZYsHYtEemG6_KUqyntEA" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_7gZYtXYtEemG6_KUqyntEA" name="code_etu" label="code_etu" length="7" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_7gZYtnYtEemG6_KUqyntEA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_7gZYt3YtEemG6_KUqyntEA" name="annee" label="annee" length="4" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_7gZYuHYtEemG6_KUqyntEA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_7gZYuXYtEemG6_KUqyntEA" name="nom_patro" label="nom_patro" length="8" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_7gZYunYtEemG6_KUqyntEA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_7gZYu3YtEemG6_KUqyntEA" name="prenom" label="prenom" length="8" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_7gZYvHYtEemG6_KUqyntEA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_7gZYvXYtEemG6_KUqyntEA" name="date_naiss" label="date_naiss" length="29" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_7gZYvnYtEemG6_KUqyntEA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_7gZYv3YtEemG6_KUqyntEA" name="sexe" label="sexe" length="1" talendType="id_Character" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_7gZYwHYtEemG6_KUqyntEA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_7gZYwXYtEemG6_KUqyntEA" name="nationalite" label="nationalite" length="12" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_7gZYwnYtEemG6_KUqyntEA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_7gZYw3YtEemG6_KUqyntEA" name="bac" label="bac" length="4" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_7gZYxHYtEemG6_KUqyntEA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_7gZYxXYtEemG6_KUqyntEA" name="cod_post_pays" label="cod_post_pays" length="5" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_7gZYxnYtEemG6_KUqyntEA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_7gZYx3YtEemG6_KUqyntEA" name="bur_distr" label="bur_distr" length="20" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_7gZYyHYtEemG6_KUqyntEA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_7gZYyXYtEemG6_KUqyntEA" name="etape" label="etape" length="6" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_7gZYynYtEemG6_KUqyntEA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_7gZYy3YtEemG6_KUqyntEA" name="csp_par" label="csp_par" length="2" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_7gZYzHYtEemG6_KUqyntEA"/>
+      </feature>
+    </ownedElement>
+  </TalendMetadata:GenericPackage>
+</xmi:XMI>

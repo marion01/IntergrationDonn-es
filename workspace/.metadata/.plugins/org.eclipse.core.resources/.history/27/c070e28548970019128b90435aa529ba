@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dataquality.analysis="http://dataquality.analysis" xmlns:dataquality.rules="http://dataquality.rules" xmlns:orgomg.cwm.objectmodel.core="http:///orgomg/cwm/objectmodel/core.ecore">
+  <dataquality.rules:WhereRule xmi:id="_1oYD0ZdHEemwqt0XGhOv7A" name="age" supplierDependency="_g7uZIJdIEemwqt0XGhOv7A" criticalityLevel="1" whereExpression="age > 20">
+    <taggedValue xmi:id="_1oYD0pdHEemwqt0XGhOv7A" tag="Status" value="development"/>
+    <taggedValue xmi:id="_1oYD05dHEemwqt0XGhOv7A" tag="Author" value="user@talend.com"/>
+    <taggedValue xmi:id="_1oYD1JdHEemwqt0XGhOv7A" tag="Purpose"/>
+    <taggedValue xmi:id="_1oYD1ZdHEemwqt0XGhOv7A" tag="Description"/>
+    <taggedValue xmi:id="_1oYD1pdHEemwqt0XGhOv7A" tag="Version" value="0.1"/>
+    <taggedValue xmi:id="_1oYD15dHEemwqt0XGhOv7A" tag="Validation_Status" value="true"/>
+    <categories href="../../.Talend.definition#_8i9eQBI5Ed6TWL6NwMMHzQ"/>
+    <sqlGenericExpression xmi:id="_1oYD2JdHEemwqt0XGhOv7A" body="SELECT COUNT(*) FROM &lt;%=__TABLE_NAME__%> &lt;%=__JOIN_CLAUSE__%> &lt;%=__WHERE_CLAUSE__%>" language="SQL"/>
+  </dataquality.rules:WhereRule>
+  <orgomg.cwm.objectmodel.core:Dependency xmi:id="_Ocy_sJdIEemwqt0XGhOv7A" kind="Usage">
+    <client xsi:type="dataquality.analysis:Analysis" href="../../../TDQ_Data Profiling/Analyses/analyseMétier_0.1.ana#_JqH64ZdIEemwqt0XGhOv7A"/>
+  </orgomg.cwm.objectmodel.core:Dependency>
+  <orgomg.cwm.objectmodel.core:Dependency xmi:id="_g7uZIJdIEemwqt0XGhOv7A" kind="Usage" supplier="_1oYD0ZdHEemwqt0XGhOv7A">
+    <client xsi:type="dataquality.analysis:Analysis" href="../../../TDQ_Data Profiling/Analyses/analyseMétier_0.1.ana#_JqH64ZdIEemwqt0XGhOv7A"/>
+  </orgomg.cwm.objectmodel.core:Dependency>
+</xmi:XMI>

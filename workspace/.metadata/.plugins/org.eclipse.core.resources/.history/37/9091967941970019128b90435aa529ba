@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataquality.analysis:Analysis xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dataquality.analysis="http://dataquality.analysis" xmlns:dataquality.indicators.schema="http://dataquality.indicators.schema" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore" xmi:id="_eY0bspdBEemwqt0XGhOv7A" name="AnalyseEnsemble" creationDate="2019-06-25T14:05:07.916+0200">
+  <clientDependency href="../../metadata/connections/EDD_0.1.item#_eY0bsJdBEemwqt0XGhOv7A"/>
+  <taggedValue xmi:id="_eY0bs5dBEemwqt0XGhOv7A" tag="Status" value="development"/>
+  <taggedValue xmi:id="_eY0btJdBEemwqt0XGhOv7A" tag="Author" value="user@talend.com"/>
+  <taggedValue xmi:id="_eY0btZdBEemwqt0XGhOv7A" tag="Purpose"/>
+  <taggedValue xmi:id="_eY0btpdBEemwqt0XGhOv7A" tag="Description"/>
+  <taggedValue xmi:id="_eY0bt5dBEemwqt0XGhOv7A" tag="Version" value="0.1"/>
+  <context xmi:id="_eY0buJdBEemwqt0XGhOv7A">
+    <connection href="../../metadata/connections/EDD_0.1.item#_5yIsMIBWEemyxqr3WvsPQg"/>
+    <analysedElements xsi:type="orgomg.cwm.resource.relational:Catalog" href="../../metadata/connections/EDD_0.1.item#_gzkjm4BbEemyxqr3WvsPQg"/>
+  </context>
+  <results xmi:id="_eY0buZdBEemwqt0XGhOv7A">
+    <resultMetadata xmi:id="_eY0bupdBEemwqt0XGhOv7A"/>
+    <indicators xsi:type="dataquality.indicators.schema:CatalogIndicator" xmi:id="_eY0bu5dBEemwqt0XGhOv7A">
+      <analyzedElement xsi:type="orgomg.cwm.resource.relational:Catalog" href="../../metadata/connections/EDD_0.1.item#_gzkjm4BbEemyxqr3WvsPQg"/>
+      <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/Catalog_Overview_0.1.definition#_QwDiwMYUEd27NP4lvE0A4w"/>
+    </indicators>
+  </results>
+  <parameters xmi:id="_eY0bvJdBEemwqt0XGhOv7A" analysisType="Catalog Analysis"/>
+</dataquality.analysis:Analysis>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendProperties="http://www.talend.org/properties" xmlns:dataquality.properties="http://dataquality.properties">
+  <TalendProperties:Property xmi:id="_1HwlU3Y5EemG6_KUqyntEA" id="_1HwlUnY5EemG6_KUqyntEA" label="Multiple_Column_Simple_Statistics" purpose="evaluates the multiplicity of records on several columns" description="Computes simple statistics on several columns" version="0.1" statusCode="development" item="_1HwlVXY5EemG6_KUqyntEA" displayName="Multiple Column Simple Statistics">
+    <author href="../../../../talend.project#_OrHAwG2AEems-ZJw9P5uBQ"/>
+    <additionalProperties xmi:id="_1HwlVnY5EemG6_KUqyntEA" key="created_product_fullname" value="Talend Open Studio for MDM"/>
+    <additionalProperties xmi:id="_1HwlV3Y5EemG6_KUqyntEA" key="created_product_version" value="7.0.1.20180411_1414"/>
+    <additionalProperties xmi:id="_1HwlWHY5EemG6_KUqyntEA" key="created_date" value="2019-05-14T13:17:16.163+0200"/>
+    <additionalProperties xmi:id="_1HwlWXY5EemG6_KUqyntEA" key="modified_product_fullname" value="Talend Open Studio for MDM"/>
+    <additionalProperties xmi:id="_1HwlWnY5EemG6_KUqyntEA" key="modified_product_version" value="7.0.1.20180411_1414"/>
+    <additionalProperties xmi:id="_1HwlW3Y5EemG6_KUqyntEA" key="modified_date" value="2019-05-14T13:17:16.163+0200"/>
+    <additionalProperties xmi:id="_BabpAHZAEemZWN55m5xDKw" key="import_product_fullname" value="Talend Open Studio for MDM"/>
+    <additionalProperties xmi:id="_BabpAXZAEemZWN55m5xDKw" key="import_product_version" value="7.0.1.20180411_1414"/>
+    <additionalProperties xmi:id="_BabpAnZAEemZWN55m5xDKw" key="import_date" value="2019-06-24T13:32:02.713+0200"/>
+  </TalendProperties:Property>
+  <TalendProperties:ItemState xmi:id="_1HwlVHY5EemG6_KUqyntEA" path="System Indicators/Simple Statistics"/>
+  <dataquality.properties:TDQIndicatorDefinitionItem xmi:id="_1HwlVXY5EemG6_KUqyntEA" property="_1HwlU3Y5EemG6_KUqyntEA" state="_1HwlVHY5EemG6_KUqyntEA" filename="Multiple_Column_Simple_Statistics_0.1.definition">
+    <indicatorDefinition href="Multiple_Column_Simple_Statistics_0.1.definition#_JoeMkM-jEd6qN5aKpPNGTg"/>
+  </dataquality.properties:TDQIndicatorDefinitionItem>
+</xmi:XMI>

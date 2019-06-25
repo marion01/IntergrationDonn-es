@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendProperties="http://www.talend.org/properties" xmlns:dataquality.properties="http://dataquality.properties">
+  <TalendProperties:Property xmi:id="_1JPy8nY5EemG6_KUqyntEA" id="_1JPy8XY5EemG6_KUqyntEA" label="Soundex_Frequency_Table" purpose="evaluates the most frequent records with respect to their soundex value" description="counts the number of records for each record with a distinct soundex" version="0.1" statusCode="development" item="_1JPy9HY5EemG6_KUqyntEA" displayName="Soundex Frequency Table">
+    <author href="../../../../talend.project#_OrHAwG2AEems-ZJw9P5uBQ"/>
+    <additionalProperties xmi:id="_1JPy9XY5EemG6_KUqyntEA" key="created_product_fullname" value="Talend Open Studio for MDM"/>
+    <additionalProperties xmi:id="_1JPy9nY5EemG6_KUqyntEA" key="created_product_version" value="7.0.1.20180411_1414"/>
+    <additionalProperties xmi:id="_1JPy93Y5EemG6_KUqyntEA" key="created_date" value="2019-05-14T13:17:16.319+0200"/>
+    <additionalProperties xmi:id="_1JPy-HY5EemG6_KUqyntEA" key="modified_product_fullname" value="Talend Open Studio for MDM"/>
+    <additionalProperties xmi:id="_1JPy-XY5EemG6_KUqyntEA" key="modified_product_version" value="7.0.1.20180411_1414"/>
+    <additionalProperties xmi:id="_1JPy-nY5EemG6_KUqyntEA" key="modified_date" value="2019-05-14T13:17:16.319+0200"/>
+    <additionalProperties xmi:id="_BalaA3ZAEemZWN55m5xDKw" key="import_product_fullname" value="Talend Open Studio for MDM"/>
+    <additionalProperties xmi:id="_BalaBHZAEemZWN55m5xDKw" key="import_product_version" value="7.0.1.20180411_1414"/>
+    <additionalProperties xmi:id="_BalaBXZAEemZWN55m5xDKw" key="import_date" value="2019-06-24T13:32:02.713+0200"/>
+  </TalendProperties:Property>
+  <TalendProperties:ItemState xmi:id="_1JPy83Y5EemG6_KUqyntEA" path="System Indicators/Soundex"/>
+  <dataquality.properties:TDQIndicatorDefinitionItem xmi:id="_1JPy9HY5EemG6_KUqyntEA" property="_1JPy8nY5EemG6_KUqyntEA" state="_1JPy83Y5EemG6_KUqyntEA" filename="Soundex_Frequency_Table_0.1.definition">
+    <indicatorDefinition href="Soundex_Frequency_Table_0.1.definition#_VGep4Pa7Ed24-N3PsP_o-w"/>
+  </dataquality.properties:TDQIndicatorDefinitionItem>
+</xmi:XMI>

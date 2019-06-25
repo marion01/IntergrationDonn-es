@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dataquality.analysis="http://dataquality.analysis" xmlns:dataquality.domain="http://dataquality.domain" xmlns:dataquality.indicators="http://dataquality.indicators" xmlns:relational="http://www.talend.org/cwm/resource/relational/2010">
+  <dataquality.analysis:Analysis xmi:id="_ovPVkZdEEemwqt0XGhOv7A" name="analyseRegleMetier" creationDate="2019-06-25T14:27:45.897+0200" defaultContext="Default">
+    <clientDependency href="../../metadata/connections/EDD_0.1.item#_eY0bsJdBEemwqt0XGhOv7A"/>
+    <taggedValue xmi:id="_ovPVkpdEEemwqt0XGhOv7A" tag="Status" value="development"/>
+    <taggedValue xmi:id="_ovPVk5dEEemwqt0XGhOv7A" tag="Author" value="user@talend.com"/>
+    <taggedValue xmi:id="_ovPVlJdEEemwqt0XGhOv7A" tag="Purpose" value=""/>
+    <taggedValue xmi:id="_ovPVlZdEEemwqt0XGhOv7A" tag="Description" value=""/>
+    <taggedValue xmi:id="_ovPVlpdEEemwqt0XGhOv7A" tag="Version" value="0.1"/>
+    <taggedValue xmi:id="_wbDxwZdEEemwqt0XGhOv7A" tag="ANA_LAST_RUN_CONTEXT" value="Default"/>
+    <taggedValue xmi:id="_wbDxw5dEEemwqt0XGhOv7A" tag="NUMBER_OF_CONNECTIONS_PER_ANALYSIS" value="5"/>
+    <context xmi:id="_ovPVl5dEEemwqt0XGhOv7A">
+      <connection href="../../metadata/connections/EDD_0.1.item#_5yIsMIBWEemyxqr3WvsPQg"/>
+      <analysedElements xsi:type="relational:TdTable" href="../../metadata/connections/EDD_0.1.item#_lpM1zIBbEemyxqr3WvsPQg"/>
+    </context>
+    <results xmi:id="_ovPVmJdEEemwqt0XGhOv7A">
+      <resultMetadata xmi:id="_ovPVmZdEEemwqt0XGhOv7A" executionDate="2019-06-25T14:28:39.045+0200" executionDuration="50" message="" executionNumber="1" lastRunOk="true" lastExecutionNumberOk="1"/>
+      <indicators xsi:type="dataquality.indicators:RowCountIndicator" xmi:id="_wbDxwpdEEemwqt0XGhOv7A" count="1271" computed="true">
+        <analyzedElement xsi:type="relational:TdTable" href="../../metadata/connections/EDD_0.1.item#_lpM1zIBbEemyxqr3WvsPQg"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Row_Count_0.1.definition#_ccFOkBF2Ed2PKb6nEJEvhw"/>
+        <instantiatedExpressions xsi:type="relational:TdExpression" xmi:id="_wqGTVJdEEemwqt0XGhOv7A" body="SELECT COUNT(*) FROM `entrepotrattrapage`.`etudiants` " language="MySQL"/>
+        <builtInIndicatorDefinition xmi:id="_wqGTUJdEEemwqt0XGhOv7A" name="Row Count" label="Row Count">
+          <taggedValue xmi:id="_wqGTUZdEEemwqt0XGhOv7A" tag="Description" value="counts the number of rows"/>
+          <taggedValue xmi:id="_wqGTUpdEEemwqt0XGhOv7A" tag="Purpose" value="evaluates the number of records"/>
+          <sqlGenericExpression xmi:id="_wqGTU5dEEemwqt0XGhOv7A" body="SELECT COUNT(*) FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%>" language="SQL"/>
+        </builtInIndicatorDefinition>
+      </indicators>
+    </results>
+    <parameters xmi:id="_ovPVmpdEEemwqt0XGhOv7A" dataFilter="_wbDxxJdEEemwqt0XGhOv7A" analysisType="Table Analysis"/>
+    <contextType xmi:id="_wbDxwJdEEemwqt0XGhOv7A" confirmationNeeded="false" name="Default"/>
+  </dataquality.analysis:Analysis>
+  <dataquality.domain:Domain xmi:id="_wbDxxJdEEemwqt0XGhOv7A" name="analyseRegleMetier">
+    <ranges xmi:id="_wbDxxZdEEemwqt0XGhOv7A">
+      <expressions xmi:id="_wbDxxpdEEemwqt0XGhOv7A">
+        <expression xsi:type="relational:TdExpression" xmi:id="_wbDxx5dEEemwqt0XGhOv7A" body="age > 20" language="SQL"/>
+      </expressions>
+    </ranges>
+  </dataquality.domain:Domain>
+</xmi:XMI>

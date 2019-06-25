@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendProperties="http://www.talend.org/properties" xmlns:dataquality.properties="http://dataquality.properties">
+  <TalendProperties:Property xmi:id="_-_jBc3WDEemtgY45NHF7Hg" id="_-_jBcnWDEemtgY45NHF7Hg" label="Blank_text" purpose="Search for blank text" description="Matches text with only white spaces" version="0.1" statusCode="Draft" item="_-_jBdXWDEemtgY45NHF7Hg" displayName="Blank text">
+    <author href="../../../../talend.project#_xaEqMnWDEemtgY45NHF7Hg"/>
+    <additionalProperties xmi:id="_-_jBdnWDEemtgY45NHF7Hg" key="created_product_fullname" value="Talend Open Studio for MDM"/>
+    <additionalProperties xmi:id="_-_jBd3WDEemtgY45NHF7Hg" key="created_product_version" value="7.0.1.20180411_1414"/>
+    <additionalProperties xmi:id="_-_jBeHWDEemtgY45NHF7Hg" key="created_date" value="2019-05-13T15:35:34.006+0200"/>
+    <additionalProperties xmi:id="_-_jBeXWDEemtgY45NHF7Hg" key="modified_product_fullname" value="Talend Open Studio for MDM"/>
+    <additionalProperties xmi:id="_-_jBenWDEemtgY45NHF7Hg" key="modified_product_version" value="7.0.1.20180411_1414"/>
+    <additionalProperties xmi:id="_-_jBe3WDEemtgY45NHF7Hg" key="modified_date" value="2019-05-13T15:35:34.006+0200"/>
+    <additionalProperties xmi:id="_-LsqcJZwEem4APjhUblj3w" key="import_product_fullname" value="Talend Open Studio for MDM"/>
+    <additionalProperties xmi:id="_-LsqcZZwEem4APjhUblj3w" key="import_product_version" value="7.0.1.20180411_1414"/>
+    <additionalProperties xmi:id="_-LsqcpZwEem4APjhUblj3w" key="import_date" value="2019-06-24T13:12:34.127+0200"/>
+  </TalendProperties:Property>
+  <TalendProperties:ItemState xmi:id="_-_jBdHWDEemtgY45NHF7Hg" path="Regex/text"/>
+  <dataquality.properties:TDQPatternItem xmi:id="_-_jBdXWDEemtgY45NHF7Hg" property="_-_jBc3WDEemtgY45NHF7Hg" state="_-_jBdHWDEemtgY45NHF7Hg" filename="Blank_text_0.1.pattern">
+    <pattern href="Blank_text_0.1.pattern#_N7yi0Gk3Ed2I1bT57-sHUw"/>
+  </dataquality.properties:TDQPatternItem>
+</xmi:XMI>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataquality.analysis:Analysis xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dataquality.analysis="http://dataquality.analysis" xmlns:dataquality.indicators.columnset="http://dataquality.indicators.columnset" xmlns:relational="http://www.talend.org/cwm/resource/relational/2010" xmi:id="_bkx_EZdHEemwqt0XGhOv7A" name="redondance" creationDate="2019-06-25T14:47:46.049+0200" defaultContext="Default">
+  <clientDependency href="../../metadata/connections/EDD_0.1.item#_eY0bsJdBEemwqt0XGhOv7A"/>
+  <taggedValue xmi:id="_bkx_EpdHEemwqt0XGhOv7A" tag="Status" value="development"/>
+  <taggedValue xmi:id="_bkx_E5dHEemwqt0XGhOv7A" tag="Author" value="user@talend.com"/>
+  <taggedValue xmi:id="_bkx_FJdHEemwqt0XGhOv7A" tag="Purpose" value=""/>
+  <taggedValue xmi:id="_bkx_FZdHEemwqt0XGhOv7A" tag="Description" value=""/>
+  <taggedValue xmi:id="_bkx_FpdHEemwqt0XGhOv7A" tag="Version" value="0.1"/>
+  <taggedValue xmi:id="_fdpHAZdHEemwqt0XGhOv7A" tag="ANA_LAST_RUN_CONTEXT" value="Default"/>
+  <taggedValue xmi:id="_fdpHBJdHEemwqt0XGhOv7A" tag="NUMBER_OF_CONNECTIONS_PER_ANALYSIS" value="5"/>
+  <context xmi:id="_bkx_F5dHEemwqt0XGhOv7A">
+    <connection href="../../metadata/connections/EDD_0.1.item#_5yIsMIBWEemyxqr3WvsPQg"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/EDD_0.1.item#_lpM17oBbEemyxqr3WvsPQg"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/EDD_0.1.item#_lpDE5YBbEemyxqr3WvsPQg"/>
+  </context>
+  <results xmi:id="_bkx_GJdHEemwqt0XGhOv7A">
+    <resultMetadata xmi:id="_bkx_GZdHEemwqt0XGhOv7A"/>
+    <indicators xsi:type="dataquality.indicators.columnset:RowMatchingIndicator" xmi:id="_fdpHApdHEemwqt0XGhOv7A">
+      <analyzedElement xsi:type="relational:TdTable" href="../../metadata/connections/EDD_0.1.item#_lpM1zIBbEemyxqr3WvsPQg"/>
+      <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Row Comparison/Row_Comparison_0.1.definition#_jMh4gJE3Ed2HGNmGoaS-_w"/>
+      <builtInIndicatorDefinition xmi:id="_gvRuAJdHEemwqt0XGhOv7A" name="Row Comparison" label="Row Comparison">
+        <taggedValue xmi:id="_gvRuAZdHEemwqt0XGhOv7A" tag="Purpose" value="Compare content of two column sets"/>
+        <taggedValue xmi:id="_gvRuApdHEemwqt0XGhOv7A" tag="Description" value="Counts the number of data from a column set A that match data of a column set B"/>
+        <sqlGenericExpression xmi:id="_gvRuA5dHEemwqt0XGhOv7A" body="SELECT COUNT(*) FROM &lt;%=__TABLE_NAME__%> LEFT JOIN &lt;%=__TABLE_NAME_2__%> ON (&lt;%=__JOIN_CLAUSE__%>) WHERE (&lt;%=__WHERE_CLAUSE__%>)" language="SQL"/>
+        <sqlGenericExpression xmi:id="_gvRuBJdHEemwqt0XGhOv7A" body="SELECT COUNT(*) FROM &lt;%=__TABLE_NAME__%> LEFT OUTER JOIN &lt;%=__TABLE_NAME_2__%> ON (&lt;%=__JOIN_CLAUSE__%>) WHERE (&lt;%=__WHERE_CLAUSE__%>)" language="Hive"/>
+      </builtInIndicatorDefinition>
+      <columnSetA href="../../metadata/connections/EDD_0.1.item#_lpM17oBbEemyxqr3WvsPQg"/>
+      <columnSetB href="../../metadata/connections/EDD_0.1.item#_lpDE5YBbEemyxqr3WvsPQg"/>
+    </indicators>
+    <indicators xsi:type="dataquality.indicators.columnset:RowMatchingIndicator" xmi:id="_fdpHA5dHEemwqt0XGhOv7A">
+      <analyzedElement xsi:type="relational:TdTable" href="../../metadata/connections/EDD_0.1.item#_lpDE44BbEemyxqr3WvsPQg"/>
+      <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Row Comparison/Row_Comparison_0.1.definition#_jMh4gJE3Ed2HGNmGoaS-_w"/>
+      <builtInIndicatorDefinition xmi:id="_gvRuBZdHEemwqt0XGhOv7A" name="Row Comparison" label="Row Comparison">
+        <taggedValue xmi:id="_gvRuBpdHEemwqt0XGhOv7A" tag="Purpose" value="Compare content of two column sets"/>
+        <taggedValue xmi:id="_gvRuB5dHEemwqt0XGhOv7A" tag="Description" value="Counts the number of data from a column set A that match data of a column set B"/>
+        <sqlGenericExpression xmi:id="_gvRuCJdHEemwqt0XGhOv7A" body="SELECT COUNT(*) FROM &lt;%=__TABLE_NAME__%> LEFT JOIN &lt;%=__TABLE_NAME_2__%> ON (&lt;%=__JOIN_CLAUSE__%>) WHERE (&lt;%=__WHERE_CLAUSE__%>)" language="SQL"/>
+        <sqlGenericExpression xmi:id="_gvRuCZdHEemwqt0XGhOv7A" body="SELECT COUNT(*) FROM &lt;%=__TABLE_NAME__%> LEFT OUTER JOIN &lt;%=__TABLE_NAME_2__%> ON (&lt;%=__JOIN_CLAUSE__%>) WHERE (&lt;%=__WHERE_CLAUSE__%>)" language="Hive"/>
+      </builtInIndicatorDefinition>
+      <columnSetA href="../../metadata/connections/EDD_0.1.item#_lpDE5YBbEemyxqr3WvsPQg"/>
+      <columnSetB href="../../metadata/connections/EDD_0.1.item#_lpM17oBbEemyxqr3WvsPQg"/>
+    </indicators>
+  </results>
+  <parameters xmi:id="_bkx_GpdHEemwqt0XGhOv7A" analysisType="Columns Comparison Analysis"/>
+  <contextType xmi:id="_fdpHAJdHEemwqt0XGhOv7A" confirmationNeeded="false" name="Default"/>
+</dataquality.analysis:Analysis>

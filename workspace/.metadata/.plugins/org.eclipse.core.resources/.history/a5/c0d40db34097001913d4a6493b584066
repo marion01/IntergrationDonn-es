@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendProperties="http://www.talend.org/properties" xmlns:dataquality.properties="http://dataquality.properties">
+  <TalendProperties:Property xmi:id="_-9d9w3WDEemtgY45NHF7Hg" id="_-9d9wnWDEemtgY45NHF7Hg" label="Hex_Color_Codes" purpose="Check hex codes used for HTML or CSS" description="Matches valid 3 or 6 character hex codes used for HTML or CSS.&#xA;Matches fff | #990000 | #cc3366 | #AAAAAA&#xA;Non-Matches #5555 | #ZJK000 | CDCDCDCD" version="0.1" statusCode="Production" item="_-9d9xXWDEemtgY45NHF7Hg" displayName="Hex Color Codes">
+    <author href="../../../../talend.project#_xaEqMnWDEemtgY45NHF7Hg"/>
+    <additionalProperties xmi:id="_-9d9xnWDEemtgY45NHF7Hg" key="created_product_fullname" value="Talend Open Studio for MDM"/>
+    <additionalProperties xmi:id="_-9d9x3WDEemtgY45NHF7Hg" key="created_product_version" value="7.0.1.20180411_1414"/>
+    <additionalProperties xmi:id="_-9d9yHWDEemtgY45NHF7Hg" key="created_date" value="2019-05-13T15:35:33.788+0200"/>
+    <additionalProperties xmi:id="_-9d9yXWDEemtgY45NHF7Hg" key="modified_product_fullname" value="Talend Open Studio for MDM"/>
+    <additionalProperties xmi:id="_-9d9ynWDEemtgY45NHF7Hg" key="modified_product_version" value="7.0.1.20180411_1414"/>
+    <additionalProperties xmi:id="_-9d9y3WDEemtgY45NHF7Hg" key="modified_date" value="2019-05-13T15:35:33.788+0200"/>
+    <additionalProperties xmi:id="_-FdfkJZwEem4APjhUblj3w" key="import_product_fullname" value="Talend Open Studio for MDM"/>
+    <additionalProperties xmi:id="_-FeGoJZwEem4APjhUblj3w" key="import_product_version" value="7.0.1.20180411_1414"/>
+    <additionalProperties xmi:id="_-FeGoZZwEem4APjhUblj3w" key="import_date" value="2019-06-24T13:12:34.127+0200"/>
+  </TalendProperties:Property>
+  <TalendProperties:ItemState xmi:id="_-9d9xHWDEemtgY45NHF7Hg" path="Regex/color"/>
+  <dataquality.properties:TDQPatternItem xmi:id="_-9d9xXWDEemtgY45NHF7Hg" property="_-9d9w3WDEemtgY45NHF7Hg" state="_-9d9xHWDEemtgY45NHF7Hg" filename="Hex_Color_Codes_0.1.pattern">
+    <pattern href="Hex_Color_Codes_0.1.pattern#_ly9QgcBQEd2Zap05uF3mKA"/>
+  </dataquality.properties:TDQPatternItem>
+</xmi:XMI>

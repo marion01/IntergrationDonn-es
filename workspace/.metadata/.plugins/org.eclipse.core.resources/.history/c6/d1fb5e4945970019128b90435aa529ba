@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataquality.analysis:Analysis xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dataquality.analysis="http://dataquality.analysis" xmlns:dataquality.indicators.columnset="http://dataquality.indicators.columnset" xmi:id="_Mz0XEZdFEemwqt0XGhOv7A" name="analyseCorrelationNumerique" creationDate="2019-06-25T14:31:47.969+0200">
+  <taggedValue xmi:id="_Mz0XEpdFEemwqt0XGhOv7A" tag="Status" value="development"/>
+  <taggedValue xmi:id="_Mz0XE5dFEemwqt0XGhOv7A" tag="Author" value="user@talend.com"/>
+  <taggedValue xmi:id="_Mz0XFJdFEemwqt0XGhOv7A" tag="Purpose"/>
+  <taggedValue xmi:id="_Mz0XFZdFEemwqt0XGhOv7A" tag="Description"/>
+  <taggedValue xmi:id="_Mz0XFpdFEemwqt0XGhOv7A" tag="Version" value="0.1"/>
+  <context xmi:id="_Mz0XF5dFEemwqt0XGhOv7A"/>
+  <results xmi:id="_Mz0XGJdFEemwqt0XGhOv7A">
+    <resultMetadata xmi:id="_Mz0XGZdFEemwqt0XGhOv7A"/>
+    <indicators xsi:type="dataquality.indicators.columnset:CountAvgNullIndicator" xmi:id="_Mz0XGpdFEemwqt0XGhOv7A">
+      <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Correlation/Averaged_Multiple_Column_Frequency_Table_0.1.definition#_9GKxAamWEd2LEfr3zBgTzA"/>
+      <rowCountIndicator xmi:id="_Mz0XG5dFEemwqt0XGhOv7A"/>
+      <uniqueCountIndicator xmi:id="_Mz0XHJdFEemwqt0XGhOv7A"/>
+      <distinctCountIndicator xmi:id="_Mz0XHZdFEemwqt0XGhOv7A"/>
+      <duplicateCountIndicator xmi:id="_Mz0XHpdFEemwqt0XGhOv7A"/>
+    </indicators>
+  </results>
+  <parameters xmi:id="_Mz0XH5dFEemwqt0XGhOv7A" analysisType="Column Correlation Analysis"/>
+</dataquality.analysis:Analysis>

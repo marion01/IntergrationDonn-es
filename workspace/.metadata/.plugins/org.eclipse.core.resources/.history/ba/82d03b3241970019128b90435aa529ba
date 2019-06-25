@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendProperties="http://www.talend.org/properties" xmlns:dataquality.properties="http://dataquality.properties">
+  <TalendProperties:Property xmi:id="_1IzHDXY5EemG6_KUqyntEA" id="_1IzHDHY5EemG6_KUqyntEA" label="Median" purpose="evaluates the median of the records" description="The median is the value separating the higher half of a sample, a population or a probability distribution from the lower half" version="0.1" statusCode="development" item="_1IzHD3Y5EemG6_KUqyntEA" displayName="Median">
+    <author href="../../../../talend.project#_OrHAwG2AEems-ZJw9P5uBQ"/>
+    <additionalProperties xmi:id="_1IzHEHY5EemG6_KUqyntEA" key="created_product_fullname" value="Talend Open Studio for MDM"/>
+    <additionalProperties xmi:id="_1IzHEXY5EemG6_KUqyntEA" key="created_product_version" value="7.0.1.20180411_1414"/>
+    <additionalProperties xmi:id="_1IzHEnY5EemG6_KUqyntEA" key="created_date" value="2019-05-14T13:17:16.272+0200"/>
+    <additionalProperties xmi:id="_1IzHE3Y5EemG6_KUqyntEA" key="modified_product_fullname" value="Talend Open Studio for MDM"/>
+    <additionalProperties xmi:id="_1IzHFHY5EemG6_KUqyntEA" key="modified_product_version" value="7.0.1.20180411_1414"/>
+    <additionalProperties xmi:id="_1IzHFXY5EemG6_KUqyntEA" key="modified_date" value="2019-05-14T13:17:16.272+0200"/>
+    <additionalProperties xmi:id="_BavLDHZAEemZWN55m5xDKw" key="import_product_fullname" value="Talend Open Studio for MDM"/>
+    <additionalProperties xmi:id="_BavLDXZAEemZWN55m5xDKw" key="import_product_version" value="7.0.1.20180411_1414"/>
+    <additionalProperties xmi:id="_BavLDnZAEemZWN55m5xDKw" key="import_date" value="2019-06-24T13:32:02.713+0200"/>
+  </TalendProperties:Property>
+  <TalendProperties:ItemState xmi:id="_1IzHDnY5EemG6_KUqyntEA" path="System Indicators/Summary Statistics"/>
+  <dataquality.properties:TDQIndicatorDefinitionItem xmi:id="_1IzHD3Y5EemG6_KUqyntEA" property="_1IzHDXY5EemG6_KUqyntEA" state="_1IzHDnY5EemG6_KUqyntEA" filename="Median_0.1.definition">
+    <indicatorDefinition href="Median_0.1.definition#_ccI48hF2Ed2PKb6nEJEvhw"/>
+  </dataquality.properties:TDQIndicatorDefinitionItem>
+</xmi:XMI>

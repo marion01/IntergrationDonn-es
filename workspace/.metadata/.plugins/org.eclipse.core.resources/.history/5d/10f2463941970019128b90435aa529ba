@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendProperties="http://www.talend.org/properties">
+  <TalendProperties:Property xmi:id="_5fXWVo3tEemEOIxLl2MERg" id="_5fXWUI3tEemEOIxLl2MERg" label="csp" version="0.1" statusCode="" item="_5fXWWI3tEemEOIxLl2MERg" displayName="csp">
+    <author href="../../../talend.project#_OrHAwG2AEems-ZJw9P5uBQ"/>
+    <additionalProperties xmi:id="_5fggQI3tEemEOIxLl2MERg" key="created_product_fullname" value="Talend Open Studio for MDM"/>
+    <additionalProperties xmi:id="_5fggQY3tEemEOIxLl2MERg" key="created_product_version" value="7.0.1.20180411_1414"/>
+    <additionalProperties xmi:id="_5fggQo3tEemEOIxLl2MERg" key="created_date" value="2019-06-13T17:14:11.652+0200"/>
+    <additionalProperties xmi:id="_5fggQ43tEemEOIxLl2MERg" key="modified_product_fullname" value="Talend Open Studio for MDM"/>
+    <additionalProperties xmi:id="_5fggRI3tEemEOIxLl2MERg" key="modified_product_version" value="7.0.1.20180411_1414"/>
+    <additionalProperties xmi:id="_5fggRY3tEemEOIxLl2MERg" key="modified_date" value="2019-06-24T13:45:43.708+0200"/>
+    <additionalProperties xmi:id="_se5xMJZzEem4psW4hSu8sA" key="import_product_fullname" value="Talend Open Studio for MDM"/>
+    <additionalProperties xmi:id="_se5xMZZzEem4psW4hSu8sA" key="import_product_version" value="7.0.1.20180411_1414"/>
+    <additionalProperties xmi:id="_se5xMpZzEem4psW4hSu8sA" key="import_date" value="2019-06-24T13:32:02.713+0200"/>
+  </TalendProperties:Property>
+  <TalendProperties:ItemState xmi:id="_5fXWV43tEemEOIxLl2MERg" path="Talend_files"/>
+  <TalendProperties:ExcelFileConnectionItem xmi:id="_5fXWWI3tEemEOIxLl2MERg" property="_5fXWVo3tEemEOIxLl2MERg" state="_5fXWV43tEemEOIxLl2MERg">
+    <connection href="csp_0.1.item#_5fXWUY3tEemEOIxLl2MERg"/>
+  </TalendProperties:ExcelFileConnectionItem>
+</xmi:XMI>

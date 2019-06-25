@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendProperties="http://www.talend.org/properties" xmlns:dataquality.properties="http://dataquality.properties">
+  <TalendProperties:Property xmi:id="_-6MnZnWDEemtgY45NHF7Hg" id="_-6MnZXWDEemtgY45NHF7Hg" label="Lower_Quartile" purpose="indiquates the threshold of the lowest 1/4th records" description="1/4th of the records are below this value and 3/4th are above" version="0.1" statusCode="development" item="_-6MnaHWDEemtgY45NHF7Hg" displayName="Lower Quartile">
+    <author href="../../../../talend.project#_xaEqMnWDEemtgY45NHF7Hg"/>
+    <additionalProperties xmi:id="_-6MnaXWDEemtgY45NHF7Hg" key="created_product_fullname" value="Talend Open Studio for MDM"/>
+    <additionalProperties xmi:id="_-6MnanWDEemtgY45NHF7Hg" key="created_product_version" value="7.0.1.20180411_1414"/>
+    <additionalProperties xmi:id="_-6Mna3WDEemtgY45NHF7Hg" key="created_date" value="2019-05-13T15:35:33.445+0200"/>
+    <additionalProperties xmi:id="_-6MnbHWDEemtgY45NHF7Hg" key="modified_product_fullname" value="Talend Open Studio for MDM"/>
+    <additionalProperties xmi:id="_-6MnbXWDEemtgY45NHF7Hg" key="modified_product_version" value="7.0.1.20180411_1414"/>
+    <additionalProperties xmi:id="_-6MnbnWDEemtgY45NHF7Hg" key="modified_date" value="2019-05-13T15:35:33.445+0200"/>
+    <additionalProperties xmi:id="_-Ap4EJZwEem4APjhUblj3w" key="import_product_fullname" value="Talend Open Studio for MDM"/>
+    <additionalProperties xmi:id="_-Ap4EZZwEem4APjhUblj3w" key="import_product_version" value="7.0.1.20180411_1414"/>
+    <additionalProperties xmi:id="_-Ap4EpZwEem4APjhUblj3w" key="import_date" value="2019-06-24T13:12:34.127+0200"/>
+  </TalendProperties:Property>
+  <TalendProperties:ItemState xmi:id="_-6MnZ3WDEemtgY45NHF7Hg" path="System Indicators/Summary Statistics"/>
+  <dataquality.properties:TDQIndicatorDefinitionItem xmi:id="_-6MnaHWDEemtgY45NHF7Hg" property="_-6MnZnWDEemtgY45NHF7Hg" state="_-6MnZ3WDEemtgY45NHF7Hg" filename="Lower_Quartile_0.1.definition">
+    <indicatorDefinition href="Lower_Quartile_0.1.definition#_ccI49BF2Ed2PKb6nEJEvhw"/>
+  </dataquality.properties:TDQIndicatorDefinitionItem>
+</xmi:XMI>

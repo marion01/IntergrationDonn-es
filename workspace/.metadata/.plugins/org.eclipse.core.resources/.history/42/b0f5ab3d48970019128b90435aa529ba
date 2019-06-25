@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataquality.analysis:Analysis xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:dataquality.analysis="http://dataquality.analysis" xmi:id="_JqH64ZdIEemwqt0XGhOv7A" name="analyseMétier" creationDate="2019-06-25T14:52:55.310+0200">
+  <taggedValue xmi:id="_JqH64pdIEemwqt0XGhOv7A" tag="Status" value="development"/>
+  <taggedValue xmi:id="_JqH645dIEemwqt0XGhOv7A" tag="Author" value="user@talend.com"/>
+  <taggedValue xmi:id="_JqH65JdIEemwqt0XGhOv7A" tag="Purpose"/>
+  <taggedValue xmi:id="_JqH65ZdIEemwqt0XGhOv7A" tag="Description"/>
+  <taggedValue xmi:id="_JqH65pdIEemwqt0XGhOv7A" tag="Version" value="0.1"/>
+  <context xmi:id="_JqH655dIEemwqt0XGhOv7A"/>
+  <results xmi:id="_JqH66JdIEemwqt0XGhOv7A">
+    <resultMetadata xmi:id="_JqH66ZdIEemwqt0XGhOv7A"/>
+  </results>
+  <parameters xmi:id="_JqH66pdIEemwqt0XGhOv7A" analysisType="Table Analysis"/>
+</dataquality.analysis:Analysis>

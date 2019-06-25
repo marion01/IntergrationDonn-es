@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dataquality.analysis="http://dataquality.analysis" xmlns:dataquality.domain="http://dataquality.domain" xmlns:dataquality.indicators="http://dataquality.indicators" xmlns:dataquality.indicators.sql="http://dataquality.indicators.sql" xmlns:relational="http://www.talend.org/cwm/resource/relational/2010">
+  <dataquality.analysis:Analysis xmi:id="_JqH64ZdIEemwqt0XGhOv7A" name="analyseMétier" creationDate="2019-06-25T14:52:55.310+0200" defaultContext="Default">
+    <clientDependency href="../../TDQ_Libraries/Rules/SQL/age_0.1.rules#_Ocy_sJdIEemwqt0XGhOv7A"/>
+    <clientDependency href="../../metadata/connections/EDD_0.1.item#_eY0bsJdBEemwqt0XGhOv7A"/>
+    <clientDependency href="../../TDQ_Libraries/Rules/SQL/age_0.1.rules#_g7uZIJdIEemwqt0XGhOv7A"/>
+    <taggedValue xmi:id="_JqH64pdIEemwqt0XGhOv7A" tag="Status" value="development"/>
+    <taggedValue xmi:id="_JqH645dIEemwqt0XGhOv7A" tag="Author" value="user@talend.com"/>
+    <taggedValue xmi:id="_JqH65JdIEemwqt0XGhOv7A" tag="Purpose" value=""/>
+    <taggedValue xmi:id="_JqH65ZdIEemwqt0XGhOv7A" tag="Description" value=""/>
+    <taggedValue xmi:id="_JqH65pdIEemwqt0XGhOv7A" tag="Version" value="0.1"/>
+    <taggedValue xmi:id="_Pac6wZdIEemwqt0XGhOv7A" tag="ANA_LAST_RUN_CONTEXT" value="Default"/>
+    <taggedValue xmi:id="_Pac6y5dIEemwqt0XGhOv7A" tag="NUMBER_OF_CONNECTIONS_PER_ANALYSIS" value="5"/>
+    <context xmi:id="_JqH655dIEemwqt0XGhOv7A">
+      <connection href="../../metadata/connections/EDD_0.1.item#_5yIsMIBWEemyxqr3WvsPQg"/>
+      <analysedElements xsi:type="relational:TdTable" href="../../metadata/connections/EDD_0.1.item#_lpM1zIBbEemyxqr3WvsPQg"/>
+    </context>
+    <results xmi:id="_JqH66JdIEemwqt0XGhOv7A">
+      <resultMetadata xmi:id="_JqH66ZdIEemwqt0XGhOv7A" executionDate="2019-06-25T14:53:36.962+0200" executionDuration="119" message="" executionNumber="1"/>
+      <indicators xsi:type="dataquality.indicators:RowCountIndicator" xmi:id="_Pac6yJdIEemwqt0XGhOv7A">
+        <analyzedElement xsi:type="relational:TdTable" href="../../metadata/connections/EDD_0.1.item#_lpM1zIBbEemyxqr3WvsPQg"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Row_Count_0.1.definition#_ccFOkBF2Ed2PKb6nEJEvhw"/>
+        <instantiatedExpressions xsi:type="relational:TdExpression" xmi:id="_P3WSJpdIEemwqt0XGhOv7A" body="SELECT COUNT(*) FROM `entrepotrattrapage`.`etudiants` " language="MySQL"/>
+        <builtInIndicatorDefinition xmi:id="_P3DXMJdIEemwqt0XGhOv7A" name="Row Count" label="Row Count">
+          <taggedValue xmi:id="_P3DXMZdIEemwqt0XGhOv7A" tag="Description" value="counts the number of rows"/>
+          <taggedValue xmi:id="_P3DXMpdIEemwqt0XGhOv7A" tag="Purpose" value="evaluates the number of records"/>
+          <sqlGenericExpression xmi:id="_P3DXM5dIEemwqt0XGhOv7A" body="SELECT COUNT(*) FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%>" language="SQL"/>
+        </builtInIndicatorDefinition>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators.sql:WhereRuleIndicator" xmi:id="_hdaJ4JdIEemwqt0XGhOv7A">
+        <analyzedElement xsi:type="relational:TdTable" href="../../metadata/connections/EDD_0.1.item#_lpM1zIBbEemyxqr3WvsPQg"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Rules/SQL/age_0.1.rules#_1oYD0ZdHEemwqt0XGhOv7A"/>
+      </indicators>
+    </results>
+    <parameters xmi:id="_JqH66pdIEemwqt0XGhOv7A" dataFilter="_PamEsJdIEemwqt0XGhOv7A" analysisType="Table Analysis"/>
+    <contextType xmi:id="_Pac6wJdIEemwqt0XGhOv7A" confirmationNeeded="false" name="Default"/>
+  </dataquality.analysis:Analysis>
+  <dataquality.domain:Domain xmi:id="_PamEsJdIEemwqt0XGhOv7A" name="analyseMétier">
+    <ranges xmi:id="_PamEsZdIEemwqt0XGhOv7A">
+      <expressions xmi:id="_PamEspdIEemwqt0XGhOv7A">
+        <expression xsi:type="relational:TdExpression" xmi:id="_PamEs5dIEemwqt0XGhOv7A" body="" language="SQL"/>
+      </expressions>
+    </ranges>
+  </dataquality.domain:Domain>
+</xmi:XMI>

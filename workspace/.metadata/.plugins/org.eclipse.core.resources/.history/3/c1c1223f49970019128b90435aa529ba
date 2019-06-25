@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataquality.analysis:Analysis xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dataquality.analysis="http://dataquality.analysis" xmlns:dataquality.indicators.columnset="http://dataquality.indicators.columnset" xmlns:relational="http://www.talend.org/cwm/resource/relational/2010" xmi:id="_0mALYZdIEemwqt0XGhOv7A" name="dependanceFonctionnelle" creationDate="2019-06-25T14:57:43.446+0200" defaultContext="Default">
+  <clientDependency href="../../metadata/connections/EDD_0.1.item#_eY0bsJdBEemwqt0XGhOv7A"/>
+  <taggedValue xmi:id="_0mALYpdIEemwqt0XGhOv7A" tag="Status" value="development"/>
+  <taggedValue xmi:id="_0mALY5dIEemwqt0XGhOv7A" tag="Author" value="user@talend.com"/>
+  <taggedValue xmi:id="_0mALZJdIEemwqt0XGhOv7A" tag="Purpose" value=""/>
+  <taggedValue xmi:id="_0mALZZdIEemwqt0XGhOv7A" tag="Description" value=""/>
+  <taggedValue xmi:id="_0mALZpdIEemwqt0XGhOv7A" tag="Version" value="0.1"/>
+  <taggedValue xmi:id="_8mBV8ZdIEemwqt0XGhOv7A" tag="ANA_LAST_RUN_CONTEXT" value="Default"/>
+  <taggedValue xmi:id="_8mBV8pdIEemwqt0XGhOv7A" tag="PREVIEW_ROW_NUMBER" value="50"/>
+  <taggedValue xmi:id="_8mBV9JdIEemwqt0XGhOv7A" tag="NUMBER_OF_CONNECTIONS_PER_ANALYSIS" value="5"/>
+  <context xmi:id="_0mALZ5dIEemwqt0XGhOv7A">
+    <connection href="../../metadata/connections/EDD_0.1.item#_5yIsMIBWEemyxqr3WvsPQg"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/EDD_0.1.item#_lpM1-oBbEemyxqr3WvsPQg"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/EDD_0.1.item#_lpM19oBbEemyxqr3WvsPQg"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/EDD_0.1.item#_lpM11oBbEemyxqr3WvsPQg"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/EDD_0.1.item#_lpM16oBbEemyxqr3WvsPQg"/>
+  </context>
+  <results xmi:id="_0mALaJdIEemwqt0XGhOv7A">
+    <resultMetadata xmi:id="_0mALaZdIEemwqt0XGhOv7A" executionDate="2019-06-25T14:59:23.672+0200" executionDuration="33" message="" executionNumber="2" lastRunOk="true" lastExecutionNumberOk="2"/>
+    <indicators xsi:type="dataquality.indicators.columnset:ColumnDependencyIndicator" xmi:id="_DVKugJdJEemwqt0XGhOv7A" aCount="121" distinctACount="6">
+      <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Functional Dependency/Functional_Dependency_0.1.definition#_YqcX0XHpEd6udst2R2sgpA"/>
+      <instantiatedExpressions xmi:id="_Dh1RgJdJEemwqt0XGhOv7A" body="SELECT COUNT(*) AS NB, COUNT(DISTINCT A) AS NBDISTINCT FROM (SELECT DISTINCT `filiere` AS A , `provenance` AS B FROM  `entrepotrattrapage`.`etudiants` C  ) T" language="SQL"/>
+      <columnA href="../../metadata/connections/EDD_0.1.item#_lpM1-oBbEemyxqr3WvsPQg"/>
+      <columnB href="../../metadata/connections/EDD_0.1.item#_lpM19oBbEemyxqr3WvsPQg"/>
+    </indicators>
+    <indicators xsi:type="dataquality.indicators.columnset:ColumnDependencyIndicator" xmi:id="_DVKugZdJEemwqt0XGhOv7A" aCount="58" distinctACount="25">
+      <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Functional Dependency/Functional_Dependency_0.1.definition#_YqcX0XHpEd6udst2R2sgpA"/>
+      <instantiatedExpressions xmi:id="_Dh1RgZdJEemwqt0XGhOv7A" body="SELECT COUNT(*) AS NB, COUNT(DISTINCT A) AS NBDISTINCT FROM (SELECT DISTINCT `age` AS A , `niveau` AS B FROM  `entrepotrattrapage`.`etudiants` C  ) T" language="SQL"/>
+      <columnA href="../../metadata/connections/EDD_0.1.item#_lpM11oBbEemyxqr3WvsPQg"/>
+      <columnB href="../../metadata/connections/EDD_0.1.item#_lpM16oBbEemyxqr3WvsPQg"/>
+    </indicators>
+  </results>
+  <parameters xmi:id="_0mALapdIEemwqt0XGhOv7A" analysisType="Functional Dependency"/>
+  <contextType xmi:id="_8mBV8JdIEemwqt0XGhOv7A" confirmationNeeded="false" name="Default"/>
+</dataquality.analysis:Analysis>

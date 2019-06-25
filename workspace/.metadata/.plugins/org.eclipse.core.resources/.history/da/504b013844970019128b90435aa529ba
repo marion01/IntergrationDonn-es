@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataquality.analysis:Analysis xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:dataquality.analysis="http://dataquality.analysis" xmi:id="_7CwlsZdDEemwqt0XGhOv7A" name="AnalyseDependanceFonctionnelle" creationDate="2019-06-25T14:22:39.243+0200">
+  <taggedValue xmi:id="_7CwlspdDEemwqt0XGhOv7A" tag="Status" value="development"/>
+  <taggedValue xmi:id="_7Cwls5dDEemwqt0XGhOv7A" tag="Author" value="user@talend.com"/>
+  <taggedValue xmi:id="_7CwltJdDEemwqt0XGhOv7A" tag="Purpose"/>
+  <taggedValue xmi:id="_7CwltZdDEemwqt0XGhOv7A" tag="Description"/>
+  <taggedValue xmi:id="_7CwltpdDEemwqt0XGhOv7A" tag="Version" value="0.1"/>
+  <context xmi:id="_7Cwlt5dDEemwqt0XGhOv7A"/>
+  <results xmi:id="_7CwluJdDEemwqt0XGhOv7A">
+    <resultMetadata xmi:id="_7CwluZdDEemwqt0XGhOv7A"/>
+  </results>
+  <parameters xmi:id="_7CwlupdDEemwqt0XGhOv7A" analysisType="Functional Dependency"/>
+</dataquality.analysis:Analysis>

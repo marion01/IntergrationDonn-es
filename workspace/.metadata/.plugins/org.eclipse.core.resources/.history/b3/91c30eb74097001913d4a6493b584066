@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendProperties="http://www.talend.org/properties" xmlns:dataquality.properties="http://dataquality.properties">
+  <TalendProperties:Property xmi:id="_-_GVcnWDEemtgY45NHF7Hg" id="_-_GVcXWDEemtgY45NHF7Hg" label="Swiss_Zip_Code_validation" purpose="1000 | 1200 | 8200 | 8048 | 9999a-z | aaaa | 123 | 0000" description="Zip code validation for Switzerland.&#xA;Forces 4-digits only zipcode starting at 1000" version="0.1" statusCode="Draft" item="_-_GVdHWDEemtgY45NHF7Hg" displayName="Swiss Zip Code validation">
+    <author href="../../../../talend.project#_xaEqMnWDEemtgY45NHF7Hg"/>
+    <additionalProperties xmi:id="_-_GVdXWDEemtgY45NHF7Hg" key="created_product_fullname" value="Talend Open Studio for MDM"/>
+    <additionalProperties xmi:id="_-_GVdnWDEemtgY45NHF7Hg" key="created_product_version" value="7.0.1.20180411_1414"/>
+    <additionalProperties xmi:id="_-_GVd3WDEemtgY45NHF7Hg" key="created_date" value="2019-05-13T15:35:33.959+0200"/>
+    <additionalProperties xmi:id="_-_GVeHWDEemtgY45NHF7Hg" key="modified_product_fullname" value="Talend Open Studio for MDM"/>
+    <additionalProperties xmi:id="_-_GVeXWDEemtgY45NHF7Hg" key="modified_product_version" value="7.0.1.20180411_1414"/>
+    <additionalProperties xmi:id="_-_GVenWDEemtgY45NHF7Hg" key="modified_date" value="2019-05-13T15:35:33.959+0200"/>
+    <additionalProperties xmi:id="_-E8iMJZwEem4APjhUblj3w" key="import_product_fullname" value="Talend Open Studio for MDM"/>
+    <additionalProperties xmi:id="_-E8iMZZwEem4APjhUblj3w" key="import_product_version" value="7.0.1.20180411_1414"/>
+    <additionalProperties xmi:id="_-E8iMpZwEem4APjhUblj3w" key="import_date" value="2019-06-24T13:12:34.127+0200"/>
+  </TalendProperties:Property>
+  <TalendProperties:ItemState xmi:id="_-_GVc3WDEemtgY45NHF7Hg" path="Regex/address"/>
+  <dataquality.properties:TDQPatternItem xmi:id="_-_GVdHWDEemtgY45NHF7Hg" property="_-_GVcnWDEemtgY45NHF7Hg" state="_-_GVc3WDEemtgY45NHF7Hg" filename="Swiss_Zip_Code_validation_0.1.pattern">
+    <pattern href="Swiss_Zip_Code_validation_0.1.pattern#__GBswIyfEd6Dle_8xC0lwg"/>
+  </dataquality.properties:TDQPatternItem>
+</xmi:XMI>

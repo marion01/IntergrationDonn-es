@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dataquality.analysis="http://dataquality.analysis" xmlns:dataquality.domain="http://dataquality.domain" xmlns:dataquality.indicators="http://dataquality.indicators" xmlns:dataquality.indicators.sql="http://dataquality.indicators.sql" xmlns:dataquality.rules="http://dataquality.rules" xmlns:relational="http://www.talend.org/cwm/resource/relational/2010">
+  <dataquality.analysis:Analysis xmi:id="_JqH64ZdIEemwqt0XGhOv7A" name="analyseMétier" creationDate="2019-06-25T14:52:55.310+0200" defaultContext="Default">
+    <clientDependency href="../../TDQ_Libraries/Rules/SQL/age_0.1.rules#_Ocy_sJdIEemwqt0XGhOv7A"/>
+    <clientDependency href="../../metadata/connections/EDD_0.1.item#_eY0bsJdBEemwqt0XGhOv7A"/>
+    <taggedValue xmi:id="_JqH64pdIEemwqt0XGhOv7A" tag="Status" value="development"/>
+    <taggedValue xmi:id="_JqH645dIEemwqt0XGhOv7A" tag="Author" value="user@talend.com"/>
+    <taggedValue xmi:id="_JqH65JdIEemwqt0XGhOv7A" tag="Purpose" value=""/>
+    <taggedValue xmi:id="_JqH65ZdIEemwqt0XGhOv7A" tag="Description" value=""/>
+    <taggedValue xmi:id="_JqH65pdIEemwqt0XGhOv7A" tag="Version" value="0.1"/>
+    <taggedValue xmi:id="_Pac6wZdIEemwqt0XGhOv7A" tag="ANA_LAST_RUN_CONTEXT" value="Default"/>
+    <taggedValue xmi:id="_Pac6y5dIEemwqt0XGhOv7A" tag="NUMBER_OF_CONNECTIONS_PER_ANALYSIS" value="5"/>
+    <context xmi:id="_JqH655dIEemwqt0XGhOv7A">
+      <connection href="../../metadata/connections/EDD_0.1.item#_5yIsMIBWEemyxqr3WvsPQg"/>
+      <analysedElements xsi:type="relational:TdTable" href="../../metadata/connections/EDD_0.1.item#_loviwIBbEemyxqr3WvsPQg"/>
+      <analysedElements xsi:type="relational:TdTable" href="../../metadata/connections/EDD_0.1.item#_lpDEwYBbEemyxqr3WvsPQg"/>
+      <analysedElements xsi:type="relational:TdTable" href="../../metadata/connections/EDD_0.1.item#_lpDE1IBbEemyxqr3WvsPQg"/>
+      <analysedElements xsi:type="relational:TdTable" href="../../metadata/connections/EDD_0.1.item#_lpDE44BbEemyxqr3WvsPQg"/>
+      <analysedElements xsi:type="relational:TdTable" href="../../metadata/connections/EDD_0.1.item#_lpM1wYBbEemyxqr3WvsPQg"/>
+      <analysedElements xsi:type="relational:TdTable" href="../../metadata/connections/EDD_0.1.item#_lpM1zIBbEemyxqr3WvsPQg"/>
+      <analysedElements xsi:type="relational:TdTable" href="../../metadata/connections/EDD_0.1.item#_lpNc0YBbEemyxqr3WvsPQg"/>
+      <analysedElements xsi:type="relational:TdTable" href="../../metadata/connections/EDD_0.1.item#_lpNc3IBbEemyxqr3WvsPQg"/>
+    </context>
+    <results xmi:id="_JqH66JdIEemwqt0XGhOv7A">
+      <resultMetadata xmi:id="_JqH66ZdIEemwqt0XGhOv7A"/>
+      <indicators xsi:type="dataquality.indicators:RowCountIndicator" xmi:id="_Pac6wpdIEemwqt0XGhOv7A">
+        <analyzedElement xsi:type="relational:TdTable" href="../../metadata/connections/EDD_0.1.item#_loviwIBbEemyxqr3WvsPQg"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Row_Count_0.1.definition#_ccFOkBF2Ed2PKb6nEJEvhw"/>
+        <builtInIndicatorDefinition xmi:id="_P2c6QJdIEemwqt0XGhOv7A" name="Row Count" label="Row Count">
+          <taggedValue xmi:id="_P2c6QZdIEemwqt0XGhOv7A" tag="Description" value="counts the number of rows"/>
+          <taggedValue xmi:id="_P2c6QpdIEemwqt0XGhOv7A" tag="Purpose" value="evaluates the number of records"/>
+          <sqlGenericExpression xmi:id="_P2c6Q5dIEemwqt0XGhOv7A" body="SELECT COUNT(*) FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%>" language="SQL"/>
+        </builtInIndicatorDefinition>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators.sql:WhereRuleIndicator" xmi:id="_Pac6w5dIEemwqt0XGhOv7A">
+        <analyzedElement xsi:type="relational:TdTable" href="../../metadata/connections/EDD_0.1.item#_loviwIBbEemyxqr3WvsPQg"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Rules/SQL/age_0.1.rules#_1oYD0ZdHEemwqt0XGhOv7A"/>
+        <builtInIndicatorDefinition xsi:type="dataquality.rules:WhereRule" xmi:id="_P2c6RJdIEemwqt0XGhOv7A" name="age" criticalityLevel="1" whereExpression="age > 20">
+          <taggedValue xmi:id="_P2c6RZdIEemwqt0XGhOv7A" tag="Status" value="development"/>
+          <taggedValue xmi:id="_P2c6RpdIEemwqt0XGhOv7A" tag="Author" value="user@talend.com"/>
+          <taggedValue xmi:id="_P2c6R5dIEemwqt0XGhOv7A" tag="Purpose"/>
+          <taggedValue xmi:id="_P2c6SJdIEemwqt0XGhOv7A" tag="Description"/>
+          <taggedValue xmi:id="_P2c6SZdIEemwqt0XGhOv7A" tag="Version" value="0.1"/>
+          <taggedValue xmi:id="_P2c6SpdIEemwqt0XGhOv7A" tag="Validation_Status" value="true"/>
+          <sqlGenericExpression xmi:id="_P2c6S5dIEemwqt0XGhOv7A" body="SELECT COUNT(*) FROM &lt;%=__TABLE_NAME__%> &lt;%=__JOIN_CLAUSE__%> &lt;%=__WHERE_CLAUSE__%>" language="SQL"/>
+        </builtInIndicatorDefinition>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:RowCountIndicator" xmi:id="_Pac6xJdIEemwqt0XGhOv7A">
+        <analyzedElement xsi:type="relational:TdTable" href="../../metadata/connections/EDD_0.1.item#_lpDEwYBbEemyxqr3WvsPQg"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Row_Count_0.1.definition#_ccFOkBF2Ed2PKb6nEJEvhw"/>
+        <builtInIndicatorDefinition xmi:id="_P2mrQJdIEemwqt0XGhOv7A" name="Row Count" label="Row Count">
+          <taggedValue xmi:id="_P2mrQZdIEemwqt0XGhOv7A" tag="Description" value="counts the number of rows"/>
+          <taggedValue xmi:id="_P2mrQpdIEemwqt0XGhOv7A" tag="Purpose" value="evaluates the number of records"/>
+          <sqlGenericExpression xmi:id="_P2mrQ5dIEemwqt0XGhOv7A" body="SELECT COUNT(*) FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%>" language="SQL"/>
+        </builtInIndicatorDefinition>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:RowCountIndicator" xmi:id="_Pac6xZdIEemwqt0XGhOv7A">
+        <analyzedElement xsi:type="relational:TdTable" href="../../metadata/connections/EDD_0.1.item#_lpDE1IBbEemyxqr3WvsPQg"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Row_Count_0.1.definition#_ccFOkBF2Ed2PKb6nEJEvhw"/>
+        <builtInIndicatorDefinition xmi:id="_P2v1MJdIEemwqt0XGhOv7A" name="Row Count" label="Row Count">
+          <taggedValue xmi:id="_P2v1MZdIEemwqt0XGhOv7A" tag="Description" value="counts the number of rows"/>
+          <taggedValue xmi:id="_P2v1MpdIEemwqt0XGhOv7A" tag="Purpose" value="evaluates the number of records"/>
+          <sqlGenericExpression xmi:id="_P2v1M5dIEemwqt0XGhOv7A" body="SELECT COUNT(*) FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%>" language="SQL"/>
+        </builtInIndicatorDefinition>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:RowCountIndicator" xmi:id="_Pac6xpdIEemwqt0XGhOv7A">
+        <analyzedElement xsi:type="relational:TdTable" href="../../metadata/connections/EDD_0.1.item#_lpDE44BbEemyxqr3WvsPQg"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Row_Count_0.1.definition#_ccFOkBF2Ed2PKb6nEJEvhw"/>
+        <builtInIndicatorDefinition xmi:id="_P25mMJdIEemwqt0XGhOv7A" name="Row Count" label="Row Count">
+          <taggedValue xmi:id="_P25mMZdIEemwqt0XGhOv7A" tag="Description" value="counts the number of rows"/>
+          <taggedValue xmi:id="_P25mMpdIEemwqt0XGhOv7A" tag="Purpose" value="evaluates the number of records"/>
+          <sqlGenericExpression xmi:id="_P25mM5dIEemwqt0XGhOv7A" body="SELECT COUNT(*) FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%>" language="SQL"/>
+        </builtInIndicatorDefinition>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:RowCountIndicator" xmi:id="_Pac6x5dIEemwqt0XGhOv7A">
+        <analyzedElement xsi:type="relational:TdTable" href="../../metadata/connections/EDD_0.1.item#_lpM1wYBbEemyxqr3WvsPQg"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Row_Count_0.1.definition#_ccFOkBF2Ed2PKb6nEJEvhw"/>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:RowCountIndicator" xmi:id="_Pac6yJdIEemwqt0XGhOv7A">
+        <analyzedElement xsi:type="relational:TdTable" href="../../metadata/connections/EDD_0.1.item#_lpM1zIBbEemyxqr3WvsPQg"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Row_Count_0.1.definition#_ccFOkBF2Ed2PKb6nEJEvhw"/>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:RowCountIndicator" xmi:id="_Pac6yZdIEemwqt0XGhOv7A">
+        <analyzedElement xsi:type="relational:TdTable" href="../../metadata/connections/EDD_0.1.item#_lpNc0YBbEemyxqr3WvsPQg"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Row_Count_0.1.definition#_ccFOkBF2Ed2PKb6nEJEvhw"/>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:RowCountIndicator" xmi:id="_Pac6ypdIEemwqt0XGhOv7A">
+        <analyzedElement xsi:type="relational:TdTable" href="../../metadata/connections/EDD_0.1.item#_lpNc3IBbEemyxqr3WvsPQg"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Row_Count_0.1.definition#_ccFOkBF2Ed2PKb6nEJEvhw"/>
+      </indicators>
+    </results>
+    <parameters xmi:id="_JqH66pdIEemwqt0XGhOv7A" dataFilter="_PamEsJdIEemwqt0XGhOv7A" analysisType="Table Analysis"/>
+    <contextType xmi:id="_Pac6wJdIEemwqt0XGhOv7A" confirmationNeeded="false" name="Default"/>
+  </dataquality.analysis:Analysis>
+  <dataquality.domain:Domain xmi:id="_PamEsJdIEemwqt0XGhOv7A" name="analyseMétier">
+    <ranges xmi:id="_PamEsZdIEemwqt0XGhOv7A">
+      <expressions xmi:id="_PamEspdIEemwqt0XGhOv7A">
+        <expression xsi:type="relational:TdExpression" xmi:id="_PamEs5dIEemwqt0XGhOv7A" body="" language="SQL"/>
+      </expressions>
+    </ranges>
+  </dataquality.domain:Domain>
+</xmi:XMI>

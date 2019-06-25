@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendProperties="http://www.talend.org/properties" xmlns:dataquality.properties="http://dataquality.properties">
+  <TalendProperties:Property xmi:id="_1OdDHnY5EemG6_KUqyntEA" id="_1OdDHXY5EemG6_KUqyntEA" label="Email_Yahoo" purpose="Check the validity of email addresses." description="Matches the email addresses to Yahoo.com, Yahoo.fr  provider and so on" version="0.1" statusCode="Draft" item="_1OdDIHY5EemG6_KUqyntEA" displayName="Email Yahoo">
+    <author href="../../../../talend.project#_OrHAwG2AEems-ZJw9P5uBQ"/>
+    <additionalProperties xmi:id="_1Om0EHY5EemG6_KUqyntEA" key="created_product_fullname" value="Talend Open Studio for MDM"/>
+    <additionalProperties xmi:id="_1Om0EXY5EemG6_KUqyntEA" key="created_product_version" value="7.0.1.20180411_1414"/>
+    <additionalProperties xmi:id="_1Om0EnY5EemG6_KUqyntEA" key="created_date" value="2019-05-14T13:17:16.881+0200"/>
+    <additionalProperties xmi:id="_1Om0E3Y5EemG6_KUqyntEA" key="modified_product_fullname" value="Talend Open Studio for MDM"/>
+    <additionalProperties xmi:id="_1Om0FHY5EemG6_KUqyntEA" key="modified_product_version" value="7.0.1.20180411_1414"/>
+    <additionalProperties xmi:id="_1Om0FXY5EemG6_KUqyntEA" key="modified_date" value="2019-05-14T13:17:16.881+0200"/>
+    <additionalProperties xmi:id="_BfyqJnZAEemZWN55m5xDKw" key="import_product_fullname" value="Talend Open Studio for MDM"/>
+    <additionalProperties xmi:id="_BfyqJ3ZAEemZWN55m5xDKw" key="import_product_version" value="7.0.1.20180411_1414"/>
+    <additionalProperties xmi:id="_BfyqKHZAEemZWN55m5xDKw" key="import_date" value="2019-06-24T13:32:02.713+0200"/>
+  </TalendProperties:Property>
+  <TalendProperties:ItemState xmi:id="_1OdDH3Y5EemG6_KUqyntEA" path="SQL/internet"/>
+  <dataquality.properties:TDQPatternItem xmi:id="_1OdDIHY5EemG6_KUqyntEA" property="_1OdDHnY5EemG6_KUqyntEA" state="_1OdDH3Y5EemG6_KUqyntEA" filename="Email_Yahoo_0.1.pattern">
+    <pattern href="Email_Yahoo_0.1.pattern#_jyAMQbo4Ed2fB5cidg4eog"/>
+  </dataquality.properties:TDQPatternItem>
+</xmi:XMI>

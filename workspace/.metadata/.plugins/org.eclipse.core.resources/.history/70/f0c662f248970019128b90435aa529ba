@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendProperties="http://www.talend.org/properties" xmlns:dataquality.properties="http://dataquality.properties">
+  <TalendProperties:Property xmi:id="_0mALa5dIEemwqt0XGhOv7A" id="_0mALYJdIEemwqt0XGhOv7A" label="dependanceFonctionnelle" version="0.1" statusCode="development" item="_0mALbZdIEemwqt0XGhOv7A" displayName="dependanceFonctionnelle">
+    <author href="../../talend.project#_OrHAwG2AEems-ZJw9P5uBQ"/>
+    <additionalProperties xmi:id="_0mALbpdIEemwqt0XGhOv7A" key="created_product_fullname" value="Talend Open Studio for MDM"/>
+    <additionalProperties xmi:id="_0mALb5dIEemwqt0XGhOv7A" key="created_product_version" value="7.0.1.20180411_1414"/>
+    <additionalProperties xmi:id="_0mALcJdIEemwqt0XGhOv7A" key="created_date" value="2019-06-25T14:57:43.446+0200"/>
+    <additionalProperties xmi:id="_0mALcZdIEemwqt0XGhOv7A" key="modified_product_fullname" value="Talend Open Studio for MDM"/>
+    <additionalProperties xmi:id="_0mALcpdIEemwqt0XGhOv7A" key="modified_product_version" value="7.0.1.20180411_1414"/>
+    <additionalProperties xmi:id="_0mALc5dIEemwqt0XGhOv7A" key="modified_date" value="2019-06-25T14:57:43.930+0200"/>
+  </TalendProperties:Property>
+  <TalendProperties:ItemState xmi:id="_0mALbJdIEemwqt0XGhOv7A" path="" locked="true" lockDate="2019-06-25T14:57:43.930+0200">
+    <locker href="../../talend.project#_OrHAwG2AEems-ZJw9P5uBQ"/>
+  </TalendProperties:ItemState>
+  <dataquality.properties:TDQAnalysisItem xmi:id="_0mALbZdIEemwqt0XGhOv7A" property="_0mALa5dIEemwqt0XGhOv7A" state="_0mALbJdIEemwqt0XGhOv7A" filename="dependanceFonctionnelle_0.1.ana">
+    <analysis href="dependanceFonctionnelle_0.1.ana#_0mALYZdIEemwqt0XGhOv7A"/>
+  </dataquality.properties:TDQAnalysisItem>
+</xmi:XMI>

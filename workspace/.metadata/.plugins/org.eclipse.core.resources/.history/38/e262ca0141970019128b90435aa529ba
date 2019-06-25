@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_SwecMIEfEem5BbK1DyQFlg" name="region" dataPackage="_SwecMYEfEem5BbK1DyQFlg _E9uWoIEiEem5BbK1DyQFlg" Server="Localhost 127.0.0.1" FilePath="C:/ID/dataEntrepot/region.txt" Encoding="windows-1252" FieldSeparatorValue="&quot;\t&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FooterValue="0" LimitValue="" FirstLineCaption="true" EscapeChar="&quot;\&quot;&quot;" TextEnclosure="&quot;\&quot;&quot;" FieldSeparatorType="Tabulation"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_SwecMYEfEem5BbK1DyQFlg" name="default" dataManager="_SwecMIEfEem5BbK1DyQFlg">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_SwecMoEfEem5BbK1DyQFlg" id="_4ZceEIEeEem5BbK1DyQFlg" label="region">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_SwecM4EfEem5BbK1DyQFlg" label="REGION" length="2" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_SwecNIEfEem5BbK1DyQFlg" label="CHEFLIEU" length="5" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_SwecNYEfEem5BbK1DyQFlg" label="TNCC" length="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_SwecNoEfEem5BbK1DyQFlg" label="NCC" length="26" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_SwecN4EfEem5BbK1DyQFlg" label="NCCENR" length="26" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_E9uWoIEiEem5BbK1DyQFlg" name="default" dataManager="_SwecMIEfEem5BbK1DyQFlg">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_E9uWoYEiEem5BbK1DyQFlg" id="_DUXMIIEiEem5BbK1DyQFlg" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_E9uWooEiEem5BbK1DyQFlg" label="REGION" length="-1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_E9uWo4EiEem5BbK1DyQFlg" label="CHEFLIEU" length="5" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_E9uWpIEiEem5BbK1DyQFlg" label="TNCC" length="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_E9uWpYEiEem5BbK1DyQFlg" label="NCC" length="26" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_E9uWpoEiEem5BbK1DyQFlg" label="NCCENR" length="26" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

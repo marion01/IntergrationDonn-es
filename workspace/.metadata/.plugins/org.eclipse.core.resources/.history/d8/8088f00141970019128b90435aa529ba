@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:FileExcelConnection xmi:id="_y2DJoXYrEemG6_KUqyntEA" name="2010-2011_ZZ2" dataPackage="_y2DJonYrEemG6_KUqyntEA" Server="Localhost 127.0.0.1" FilePath="C:/ID/dataEntrepot/2010-2011_ZZ2.xlsx" Encoding="UTF-8" UseHeader="true" HeaderValue="1" FirstLineCaption="true" SheetName="Promo" firstColumn="1" thousandSeparator="','" decimalSeparator="'.'" selectAllSheets="true" sheetList="Promo:w&#xA;">
+    <sheetColumns>A</sheetColumns>
+    <sheetColumns>B</sheetColumns>
+    <sheetColumns>C</sheetColumns>
+    <sheetColumns>D</sheetColumns>
+    <sheetColumns>E</sheetColumns>
+  </TalendMetadata:FileExcelConnection>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_y2DJonYrEemG6_KUqyntEA" name="default" dataManager="_y2DJoXYrEemG6_KUqyntEA">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_y2DJo3YrEemG6_KUqyntEA" id="_sRR1EHYrEemG6_KUqyntEA" label="2010-2011_ZZ2">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_y2DJpHYrEemG6_KUqyntEA" label="Nom" length="8" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_y2DJpXYrEemG6_KUqyntEA" label="Prenom" length="8" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_y2DJpnYrEemG6_KUqyntEA" label="Groupe" length="2" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_y2DJp3YrEemG6_KUqyntEA" label="Lv2" length="9" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_y2DJqHYrEemG6_KUqyntEA" label="Provenance" length="30" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

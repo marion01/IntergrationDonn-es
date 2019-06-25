@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendProperties="http://www.talend.org/properties">
+  <TalendProperties:Property xmi:id="_Q3v3cG2AEems-ZJw9P5uBQ" id="_Q3mGjm2AEems-ZJw9P5uBQ" label="MySQLDropTargetTable" version="0.1" item="_Q3v3cm2AEems-ZJw9P5uBQ">
+    <author href="../../../talend.project#_OrHAwG2AEems-ZJw9P5uBQ"/>
+    <additionalProperties xmi:id="_Q3v3c22AEems-ZJw9P5uBQ" key="created_product_fullname" value="Talend Open Studio for MDM"/>
+    <additionalProperties xmi:id="_Q3v3dG2AEems-ZJw9P5uBQ" key="created_product_version" value="7.0.1.20180411_1414"/>
+    <additionalProperties xmi:id="_Q3v3dW2AEems-ZJw9P5uBQ" key="created_date" value="2019-05-03T10:48:46.695+0200"/>
+    <additionalProperties xmi:id="_Q3v3dm2AEems-ZJw9P5uBQ" key="modified_product_fullname" value="Talend Open Studio for MDM"/>
+    <additionalProperties xmi:id="_Q3v3d22AEems-ZJw9P5uBQ" key="modified_product_version" value="7.0.1.20180411_1414"/>
+    <additionalProperties xmi:id="_Q3v3eG2AEems-ZJw9P5uBQ" key="modified_date" value="2019-05-03T10:48:46.695+0200"/>
+    <additionalProperties xmi:id="_Bn-Vw3ZAEemZWN55m5xDKw" key="import_product_fullname" value="Talend Open Studio for MDM"/>
+    <additionalProperties xmi:id="_Bn-VxHZAEemZWN55m5xDKw" key="import_product_version" value="7.0.1.20180411_1414"/>
+    <additionalProperties xmi:id="_Bn-VxXZAEemZWN55m5xDKw" key="import_date" value="2019-06-24T13:32:02.713+0200"/>
+  </TalendProperties:Property>
+  <TalendProperties:ItemState xmi:id="_Q3v3cW2AEems-ZJw9P5uBQ" path="MySQL/system"/>
+  <TalendProperties:SQLPatternItem xmi:id="_Q3v3cm2AEems-ZJw9P5uBQ" property="_Q3v3cG2AEems-ZJw9P5uBQ" state="_Q3v3cW2AEems-ZJw9P5uBQ" system="true" eltName="MySQL">
+    <content href="MySQLDropTargetTable_0.1.item#/"/>
+  </TalendProperties:SQLPatternItem>
+</xmi:XMI>
